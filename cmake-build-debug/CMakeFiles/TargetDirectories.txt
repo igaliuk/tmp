@@ -1,0 +1,3 @@
+/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles/ttt.dir
