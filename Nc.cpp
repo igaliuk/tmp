@@ -88,7 +88,7 @@ void		Nc::menu(int & game) const
 //	str = "  2 pl S"; // Survival
 //	mvwprintw(_win2, HEIGHT_BATTLE / 2 + 3, (WIDTH_BATTLE -  str.length()) / 2, str.c_str());
 //	this->refreshWindows();
-	game = 1;
+	game = 3;
 }
 
 void		Nc::changePause() {
@@ -147,12 +147,14 @@ void		Nc::wantQuit() {
 	}
 }
 
-void	Nc::printW1(vector<Player *> vecPl, vector<Bullet *> vecBul, vector<Texture *> vecTex) const {
-	
-
+void	Nc::printW2(char * map) const {
 	werase(_win2);
-	
-	
+	for (int i = 0; i < HEIGHT_BATTLE; i++) {
+		for (int j = 0; j < WIDTH_BATTLE; j++) {
+			if (map[i * WIDTH_BATTLE + j])
+				mvwprintw(_win2, i, j, "#");
+		}
+	}
 //	mvwprintw(_win2, (int)xyway->getY(), (int)xyway->getX(), "#");
 	this->refreshWindows();
 }

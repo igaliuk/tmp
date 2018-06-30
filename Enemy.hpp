@@ -12,12 +12,15 @@ class Enemy : public Tank {
 		int				_ammo;
 		float			_speed;
 		XYWay			_xyway;
+		int				_freeze;
 		Bullet			*_bullet;
 
 	public:
 
 		Enemy();
-		Enemy(int const type, float const tspeed,int const x, int const y, float bspeed);
+		Enemy(int const type, float const tspeed, float const x, float const y, float bspeed);
+
+		virtual Bullet *		attack();
 
 		virtual ~Enemy();
 };

@@ -1,6 +1,6 @@
 #include "BestTanks.h"
 
-Texture::Texture(int const type, int const power, int const passability, float const speed, int const x, int const y) {
+Texture::Texture(int const type, int const power, int const passability, float const speed, float const x, float const y) {
 	_type = type;
 	_power = power;
 	_passability = passability;
@@ -30,8 +30,10 @@ XYWay		&Texture::getXYWay() {
 	return (_xyway);
 }
 
-void		Texture::destroed() {
-	this->~Texture();
+_Bool		Texture::takeDamage(int const power) {
+	if (_power == power)
+		return (FALSE);
+	return (TRUE);
 }
 
 Texture::~Texture() {}

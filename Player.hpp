@@ -15,12 +15,14 @@ class Player : public Tank {
 		int				_ammo;
 		float			_speed;
 		XYWay			_xyway;
+		int				_freeze;
 		Bullet			*_bullet;
+		Bullet			*_bullet2;
 
 	public:
 
 		Player();
-		Player(int const type, int const x, int const y);
+		Player(int const type, float const x, float const y);
 
 		int						getRank() const;
 		int						getLifes() const;
@@ -29,6 +31,9 @@ class Player : public Tank {
 		void					setRank(int const rank);
 		void					setLifes(int const lifes);
 		void					setScore(int const score);
+
+		virtual Bullet *		attack();
+		void					death();
 
 		virtual ~Player();
 };

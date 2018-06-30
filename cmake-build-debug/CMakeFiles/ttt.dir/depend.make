@@ -6,9 +6,11 @@ CMakeFiles/ttt.dir/Battle.cpp.o: ../Battle.hpp
 CMakeFiles/ttt.dir/Battle.cpp.o: ../BestTanks.h
 CMakeFiles/ttt.dir/Battle.cpp.o: ../Bullet.hpp
 CMakeFiles/ttt.dir/Battle.cpp.o: ../Controller.hpp
-CMakeFiles/ttt.dir/Battle.cpp.o: ../ITank.hpp
+CMakeFiles/ttt.dir/Battle.cpp.o: ../Eagle.hpp
+CMakeFiles/ttt.dir/Battle.cpp.o: ../Enemy.hpp
 CMakeFiles/ttt.dir/Battle.cpp.o: ../Nc.hpp
 CMakeFiles/ttt.dir/Battle.cpp.o: ../Player.hpp
+CMakeFiles/ttt.dir/Battle.cpp.o: ../Tank.hpp
 CMakeFiles/ttt.dir/Battle.cpp.o: ../Texture.hpp
 CMakeFiles/ttt.dir/Battle.cpp.o: ../XYWay.hpp
 
@@ -17,9 +19,11 @@ CMakeFiles/ttt.dir/Bullet.cpp.o: ../BestTanks.h
 CMakeFiles/ttt.dir/Bullet.cpp.o: ../Bullet.cpp
 CMakeFiles/ttt.dir/Bullet.cpp.o: ../Bullet.hpp
 CMakeFiles/ttt.dir/Bullet.cpp.o: ../Controller.hpp
-CMakeFiles/ttt.dir/Bullet.cpp.o: ../ITank.hpp
+CMakeFiles/ttt.dir/Bullet.cpp.o: ../Eagle.hpp
+CMakeFiles/ttt.dir/Bullet.cpp.o: ../Enemy.hpp
 CMakeFiles/ttt.dir/Bullet.cpp.o: ../Nc.hpp
 CMakeFiles/ttt.dir/Bullet.cpp.o: ../Player.hpp
+CMakeFiles/ttt.dir/Bullet.cpp.o: ../Tank.hpp
 CMakeFiles/ttt.dir/Bullet.cpp.o: ../Texture.hpp
 CMakeFiles/ttt.dir/Bullet.cpp.o: ../XYWay.hpp
 
@@ -28,20 +32,50 @@ CMakeFiles/ttt.dir/Conroller.cpp.o: ../BestTanks.h
 CMakeFiles/ttt.dir/Conroller.cpp.o: ../Bullet.hpp
 CMakeFiles/ttt.dir/Conroller.cpp.o: ../Conroller.cpp
 CMakeFiles/ttt.dir/Conroller.cpp.o: ../Controller.hpp
-CMakeFiles/ttt.dir/Conroller.cpp.o: ../ITank.hpp
+CMakeFiles/ttt.dir/Conroller.cpp.o: ../Eagle.hpp
+CMakeFiles/ttt.dir/Conroller.cpp.o: ../Enemy.hpp
 CMakeFiles/ttt.dir/Conroller.cpp.o: ../Nc.hpp
 CMakeFiles/ttt.dir/Conroller.cpp.o: ../Player.hpp
+CMakeFiles/ttt.dir/Conroller.cpp.o: ../Tank.hpp
 CMakeFiles/ttt.dir/Conroller.cpp.o: ../Texture.hpp
 CMakeFiles/ttt.dir/Conroller.cpp.o: ../XYWay.hpp
+
+CMakeFiles/ttt.dir/Eagle.cpp.o: ../Battle.hpp
+CMakeFiles/ttt.dir/Eagle.cpp.o: ../BestTanks.h
+CMakeFiles/ttt.dir/Eagle.cpp.o: ../Bullet.hpp
+CMakeFiles/ttt.dir/Eagle.cpp.o: ../Controller.hpp
+CMakeFiles/ttt.dir/Eagle.cpp.o: ../Eagle.cpp
+CMakeFiles/ttt.dir/Eagle.cpp.o: ../Eagle.hpp
+CMakeFiles/ttt.dir/Eagle.cpp.o: ../Enemy.hpp
+CMakeFiles/ttt.dir/Eagle.cpp.o: ../Nc.hpp
+CMakeFiles/ttt.dir/Eagle.cpp.o: ../Player.hpp
+CMakeFiles/ttt.dir/Eagle.cpp.o: ../Tank.hpp
+CMakeFiles/ttt.dir/Eagle.cpp.o: ../Texture.hpp
+CMakeFiles/ttt.dir/Eagle.cpp.o: ../XYWay.hpp
+
+CMakeFiles/ttt.dir/Enemy.cpp.o: ../Battle.hpp
+CMakeFiles/ttt.dir/Enemy.cpp.o: ../BestTanks.h
+CMakeFiles/ttt.dir/Enemy.cpp.o: ../Bullet.hpp
+CMakeFiles/ttt.dir/Enemy.cpp.o: ../Controller.hpp
+CMakeFiles/ttt.dir/Enemy.cpp.o: ../Eagle.hpp
+CMakeFiles/ttt.dir/Enemy.cpp.o: ../Enemy.cpp
+CMakeFiles/ttt.dir/Enemy.cpp.o: ../Enemy.hpp
+CMakeFiles/ttt.dir/Enemy.cpp.o: ../Nc.hpp
+CMakeFiles/ttt.dir/Enemy.cpp.o: ../Player.hpp
+CMakeFiles/ttt.dir/Enemy.cpp.o: ../Tank.hpp
+CMakeFiles/ttt.dir/Enemy.cpp.o: ../Texture.hpp
+CMakeFiles/ttt.dir/Enemy.cpp.o: ../XYWay.hpp
 
 CMakeFiles/ttt.dir/Nc.cpp.o: ../Battle.hpp
 CMakeFiles/ttt.dir/Nc.cpp.o: ../BestTanks.h
 CMakeFiles/ttt.dir/Nc.cpp.o: ../Bullet.hpp
 CMakeFiles/ttt.dir/Nc.cpp.o: ../Controller.hpp
-CMakeFiles/ttt.dir/Nc.cpp.o: ../ITank.hpp
+CMakeFiles/ttt.dir/Nc.cpp.o: ../Eagle.hpp
+CMakeFiles/ttt.dir/Nc.cpp.o: ../Enemy.hpp
 CMakeFiles/ttt.dir/Nc.cpp.o: ../Nc.cpp
 CMakeFiles/ttt.dir/Nc.cpp.o: ../Nc.hpp
 CMakeFiles/ttt.dir/Nc.cpp.o: ../Player.hpp
+CMakeFiles/ttt.dir/Nc.cpp.o: ../Tank.hpp
 CMakeFiles/ttt.dir/Nc.cpp.o: ../Texture.hpp
 CMakeFiles/ttt.dir/Nc.cpp.o: ../XYWay.hpp
 
@@ -49,20 +83,37 @@ CMakeFiles/ttt.dir/Player.cpp.o: ../Battle.hpp
 CMakeFiles/ttt.dir/Player.cpp.o: ../BestTanks.h
 CMakeFiles/ttt.dir/Player.cpp.o: ../Bullet.hpp
 CMakeFiles/ttt.dir/Player.cpp.o: ../Controller.hpp
-CMakeFiles/ttt.dir/Player.cpp.o: ../ITank.hpp
+CMakeFiles/ttt.dir/Player.cpp.o: ../Eagle.hpp
+CMakeFiles/ttt.dir/Player.cpp.o: ../Enemy.hpp
 CMakeFiles/ttt.dir/Player.cpp.o: ../Nc.hpp
 CMakeFiles/ttt.dir/Player.cpp.o: ../Player.cpp
 CMakeFiles/ttt.dir/Player.cpp.o: ../Player.hpp
+CMakeFiles/ttt.dir/Player.cpp.o: ../Tank.hpp
 CMakeFiles/ttt.dir/Player.cpp.o: ../Texture.hpp
 CMakeFiles/ttt.dir/Player.cpp.o: ../XYWay.hpp
+
+CMakeFiles/ttt.dir/Tank.cpp.o: ../Battle.hpp
+CMakeFiles/ttt.dir/Tank.cpp.o: ../BestTanks.h
+CMakeFiles/ttt.dir/Tank.cpp.o: ../Bullet.hpp
+CMakeFiles/ttt.dir/Tank.cpp.o: ../Controller.hpp
+CMakeFiles/ttt.dir/Tank.cpp.o: ../Eagle.hpp
+CMakeFiles/ttt.dir/Tank.cpp.o: ../Enemy.hpp
+CMakeFiles/ttt.dir/Tank.cpp.o: ../Nc.hpp
+CMakeFiles/ttt.dir/Tank.cpp.o: ../Player.hpp
+CMakeFiles/ttt.dir/Tank.cpp.o: ../Tank.cpp
+CMakeFiles/ttt.dir/Tank.cpp.o: ../Tank.hpp
+CMakeFiles/ttt.dir/Tank.cpp.o: ../Texture.hpp
+CMakeFiles/ttt.dir/Tank.cpp.o: ../XYWay.hpp
 
 CMakeFiles/ttt.dir/Texture.cpp.o: ../Battle.hpp
 CMakeFiles/ttt.dir/Texture.cpp.o: ../BestTanks.h
 CMakeFiles/ttt.dir/Texture.cpp.o: ../Bullet.hpp
 CMakeFiles/ttt.dir/Texture.cpp.o: ../Controller.hpp
-CMakeFiles/ttt.dir/Texture.cpp.o: ../ITank.hpp
+CMakeFiles/ttt.dir/Texture.cpp.o: ../Eagle.hpp
+CMakeFiles/ttt.dir/Texture.cpp.o: ../Enemy.hpp
 CMakeFiles/ttt.dir/Texture.cpp.o: ../Nc.hpp
 CMakeFiles/ttt.dir/Texture.cpp.o: ../Player.hpp
+CMakeFiles/ttt.dir/Texture.cpp.o: ../Tank.hpp
 CMakeFiles/ttt.dir/Texture.cpp.o: ../Texture.cpp
 CMakeFiles/ttt.dir/Texture.cpp.o: ../Texture.hpp
 CMakeFiles/ttt.dir/Texture.cpp.o: ../XYWay.hpp
@@ -71,9 +122,11 @@ CMakeFiles/ttt.dir/XYWay.cpp.o: ../Battle.hpp
 CMakeFiles/ttt.dir/XYWay.cpp.o: ../BestTanks.h
 CMakeFiles/ttt.dir/XYWay.cpp.o: ../Bullet.hpp
 CMakeFiles/ttt.dir/XYWay.cpp.o: ../Controller.hpp
-CMakeFiles/ttt.dir/XYWay.cpp.o: ../ITank.hpp
+CMakeFiles/ttt.dir/XYWay.cpp.o: ../Eagle.hpp
+CMakeFiles/ttt.dir/XYWay.cpp.o: ../Enemy.hpp
 CMakeFiles/ttt.dir/XYWay.cpp.o: ../Nc.hpp
 CMakeFiles/ttt.dir/XYWay.cpp.o: ../Player.hpp
+CMakeFiles/ttt.dir/XYWay.cpp.o: ../Tank.hpp
 CMakeFiles/ttt.dir/XYWay.cpp.o: ../Texture.hpp
 CMakeFiles/ttt.dir/XYWay.cpp.o: ../XYWay.cpp
 CMakeFiles/ttt.dir/XYWay.cpp.o: ../XYWay.hpp
@@ -82,9 +135,11 @@ CMakeFiles/ttt.dir/main.cpp.o: ../Battle.hpp
 CMakeFiles/ttt.dir/main.cpp.o: ../BestTanks.h
 CMakeFiles/ttt.dir/main.cpp.o: ../Bullet.hpp
 CMakeFiles/ttt.dir/main.cpp.o: ../Controller.hpp
-CMakeFiles/ttt.dir/main.cpp.o: ../ITank.hpp
+CMakeFiles/ttt.dir/main.cpp.o: ../Eagle.hpp
+CMakeFiles/ttt.dir/main.cpp.o: ../Enemy.hpp
 CMakeFiles/ttt.dir/main.cpp.o: ../Nc.hpp
 CMakeFiles/ttt.dir/main.cpp.o: ../Player.hpp
+CMakeFiles/ttt.dir/main.cpp.o: ../Tank.hpp
 CMakeFiles/ttt.dir/main.cpp.o: ../Texture.hpp
 CMakeFiles/ttt.dir/main.cpp.o: ../XYWay.hpp
 CMakeFiles/ttt.dir/main.cpp.o: ../main.cpp

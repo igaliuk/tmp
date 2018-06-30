@@ -101,6 +101,12 @@
 		<Unit filename="/Users/igaliuk/False/ttt/Controller.hpp">
 			<Option target="ttt"/>
 		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Eagle.cpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Eagle.hpp">
+			<Option target="ttt"/>
+		</Unit>
 		<Unit filename="/Users/igaliuk/False/ttt/Enemy.cpp">
 			<Option target="ttt"/>
 		</Unit>
@@ -138,6 +144,9 @@
 			<Option target="ttt"/>
 		</Unit>
 		<Unit filename="/Users/igaliuk/False/ttt/main.cpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/roundfTanks.cpp">
 			<Option target="ttt"/>
 		</Unit>
 		<Unit filename="/Users/igaliuk/False/ttt/CMakeLists.txt">

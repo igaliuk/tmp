@@ -24,6 +24,10 @@ XYWay		&Tank::getXYWay() {
 	return (_xyway);
 }
 
+int			Tank::getFreeze() {
+	return (_freeze);
+}
+
 //===================================================
 
 void		Tank::setHP(int const HP) {
@@ -40,16 +44,23 @@ void		Tank::setSpeed(float const speed) {
 
 //===================================================
 
-Bullet *	Tank::attack() {
-	if (_ammo > 0) {
-		_ammo--;
-		return (new Bullet(_power, _bSpeed, _xyway, *this));
-	}
-	return (NULL);
+void		Tank::changeFreeze() {
+	_freeze -= STEPTIME;
+}
+
+void		Tank::turn(int const way) {
+	if ((_xyway.getWay() == RIGHT || _xyway.getWay() == LEFT) && (way == UP || way == DOWN))
+		_xyway.setY(roundfTank(_xyway.getY()));
+	if ((_xyway.getWay() == UP || _xyway.getWay() == DOWN) && (way == RIGHT || way == LEFT))
+		_xyway.setX(roundfTank(_xyway.getX()));
+	_xyway.setWay(way);
 }
 
 void		Tank::move(int const way) {
-	_xyway.setWay(way);
+	if (_xyway.getWay() != way) {
+		turn(way);
+		return ;
+	}
 	if (way == UP && _xyway.getY() - 1.0f >= 0.0f)
 		_xyway.setY(_xyway.getY() - 1.0f);
 	if (way == RIGHT && _xyway.getX() + 1.0f < 13.0f)
@@ -70,5 +81,7 @@ _Bool		Tank::takeDamage() {
 		return (FALSE);
 	return (TRUE);
 }
+
+//===================================================
 
 Tank::~Tank() {}

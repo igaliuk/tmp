@@ -10,7 +10,7 @@
 
 using namespace std;
 
-
+int			roundfTank(float const f);
 
 //////////////////////////////////////////////
 
@@ -32,27 +32,35 @@ using namespace std;
 
 //////////////////////////////////////////////
 
-# define START_POS_X_PL1		4.0
-# define START_POS_Y_PL1		13.0
-# define START_POS_X_PL2		8.0
-# define START_POS_Y_PL2		13.0
-
-# define START_POS_X_EN1		0.0
-# define START_POS_Y_EN1		0.0
-# define START_POS_X_EN2		6.0
-# define START_POS_Y_EN2		0.0
-# define START_POS_X_EN3		8.0
-# define START_POS_Y_EN3		13.0
+# define STEPTIME				50
+# define FREEZE					2000
 
 //////////////////////////////////////////////
 
-# define SPEED_TANK1			1.0
-# define SPEED_TANK2			2.0
-# define SPEED_TANK3			3.0
-# define SPEED_TANK4			4.0
+# define START_POS_X_PL1		4.0f
+# define START_POS_Y_PL1		12.0f
+# define START_POS_X_PL2		8.0f
+# define START_POS_Y_PL2		12.0f
 
-# define SPEED_BULLET1			1.0
-# define SPEED_BULLET2			2.0
+# define START_POS_X_EN1		0.0f
+# define START_POS_Y_EN1		0.0f
+# define START_POS_X_EN2		6.0f
+# define START_POS_Y_EN2		0.0f
+# define START_POS_X_EN3		12.0f
+# define START_POS_Y_EN3		0.0f
+
+# define START_POS_X_EA			6.0f
+# define START_POS_Y_EA			12.0f
+
+//////////////////////////////////////////////
+
+# define SPEED_TANK1			1.0f
+# define SPEED_TANK2			2.0f
+# define SPEED_TANK3			3.0f
+# define SPEED_TANK4			4.0f
+
+# define SPEED_BULLET1			1.0f
+# define SPEED_BULLET2			2.0f
 
 //////////////////////////////////////////////
 
@@ -77,6 +85,7 @@ using namespace std;
 # include "Tank.hpp"
 # include "Player.hpp"
 # include "Enemy.hpp"
+# include "Eagle.hpp"
 # include "Bullet.hpp"
 # include "Texture.hpp"
 # include "Controller.hpp"

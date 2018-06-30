@@ -15,7 +15,7 @@ class Texture {
 
 	public:
 
-		Texture(int const type, int const power, int const passability, float const speed, int const x, int const y);
+		Texture(int const type, int const power, int const passability, float const speed, float const x, float const y);
 
 		int				getType() const;
 		int				getPower() const;
@@ -23,7 +23,7 @@ class Texture {
 		float			getSpeed() const;
 		XYWay			&getXYWay();
 
-		void			destroed();
+		_Bool			takeDamage(int const power);
 
 		~Texture();
 };

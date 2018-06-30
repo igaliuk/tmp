@@ -14,7 +14,9 @@ class Tank {
 		int				_ammo;
 		float			_speed;
 		XYWay			_xyway;
+		int				_freeze;
 		Bullet			*_bullet;
+		Bullet			*_bullet2;
 
 	public:
 
@@ -24,13 +26,16 @@ class Tank {
 		int						getHP() const;
 		int						getAmmo() const;
 		float					getSpeed() const;
-		XYWay					&getXYWay();
+		XYWay &					getXYWay();
+		int						getFreeze();
 
 		void					setHP(int const HP);
 		void					setAmmo(int const  ammo);
 		void					setSpeed(float const speed);
 
-		Bullet *				attack();
+		virtual Bullet *		attack() = 0;
+		void					changeFreeze();
+		void					turn(int const way);
 		void					move(int const way);
 		void					reload();
 		_Bool					takeDamage();

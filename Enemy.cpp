@@ -2,7 +2,7 @@
 
 Enemy::Enemy() {}
 
-Enemy::Enemy(int const type, float const tspeed,int const x, int const y, float bspeed) {
+Enemy::Enemy(int const type, float const tspeed, float const x, float const y, float bspeed) {
 	_type = type;
 	_HP = 1;
 	_ammo = 1;
@@ -10,12 +10,29 @@ Enemy::Enemy(int const type, float const tspeed,int const x, int const y, float 
 	_xyway.setX(x);
 	_xyway.setY(y);
 	_xyway.setWay(DOWN);
+	_freeze = FREEZE;
 	_bullet = new Bullet(bspeed);
 }
 
 //===================================================
 
-Enemy::~Enemy() {}
+Bullet *	Enemy::attack() {
+	if (_ammo > 0) {
+		_ammo--;
+		if (!_bullet->getStatus()) {
+			_bullet->changeStatus();
+			_bullet->setXYWay(_xyway);
+			return (_bullet);
+		}
+	}
+	return (NULL);
+}
+
+//===================================================
+
+Enemy::~Enemy() {
+	delete _bullet;
+}
 
 //static int		position = 1;
 //if (position == 1) {

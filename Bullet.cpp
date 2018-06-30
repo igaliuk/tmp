@@ -3,10 +3,12 @@
 Bullet::Bullet(float const speed) {
 	_power = 1;
 	_speed = speed;
-	_xyway.setX(0);
-	_xyway.setY(0);
+	_xyway.setX(-1.0f);
+	_xyway.setY(-1.0f);
 	_xyway.setWay(0);
 }
+
+//===================================================
 
 int			Bullet::getPower() const {
 	return (_power);
@@ -20,16 +22,36 @@ XYWay		&Bullet::getXYWay() {
 	return (_xyway);
 }
 
-void		Bullet::move(int const way) {
-	_xyway.setWay(way);
-	if (way == UP && _xyway.getY() - 1.0 >= 0.0)
-		_xyway.setY(_xyway.getY() - 1.0);
-	if (way == RIGHT && _xyway.getX() + 1.0 < 13.0)
-		_xyway.setX(_xyway.getX() + 1.0);
-	if (way == DOWN && _xyway.getY() + 1.0 < 13.0)
-		_xyway.setY(_xyway.getY() + 1.0);
-	if (way == LEFT && _xyway.getX() - 1.0 >= 0.0)
-		_xyway.setX(_xyway.getX() - 1.0);
+_Bool		Bullet::getStatus() {
+	return (_status);
 }
+
+//===================================================
+
+void		Bullet::setXYWay(XYWay const & xyway) {
+	_xyway = xyway;
+}
+
+//===================================================
+
+void		Bullet::changeStatus() {
+	if (_status)
+		_status = FALSE;
+	else
+		_status = TRUE;
+}
+
+void		Bullet::move() {
+	if (_xyway.getWay() == UP)
+		_xyway.setY(_xyway.getY() - _speed);
+	if (_xyway.getWay() == RIGHT)
+		_xyway.setX(_xyway.getX() + _speed);
+	if (_xyway.getWay() == DOWN)
+		_xyway.setY(_xyway.getY() + _speed);
+	if (_xyway.getWay() == LEFT)
+		_xyway.setX(_xyway.getX() - _speed);
+}
+
+//===================================================
 
 Bullet::~Bullet() {}

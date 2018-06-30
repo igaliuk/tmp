@@ -204,6 +204,33 @@ Conroller.cpp.s:
 	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Conroller.cpp.s
 .PHONY : Conroller.cpp.s
 
+Eagle.o: Eagle.cpp.o
+
+.PHONY : Eagle.o
+
+# target to build an object file
+Eagle.cpp.o:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Eagle.cpp.o
+.PHONY : Eagle.cpp.o
+
+Eagle.i: Eagle.cpp.i
+
+.PHONY : Eagle.i
+
+# target to preprocess a source file
+Eagle.cpp.i:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Eagle.cpp.i
+.PHONY : Eagle.cpp.i
+
+Eagle.s: Eagle.cpp.s
+
+.PHONY : Eagle.s
+
+# target to generate assembly for a file
+Eagle.cpp.s:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Eagle.cpp.s
+.PHONY : Eagle.cpp.s
+
 Enemy.o: Enemy.cpp.o
 
 .PHONY : Enemy.o
@@ -393,6 +420,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+roundfTanks.o: roundfTanks.cpp.o
+
+.PHONY : roundfTanks.o
+
+# target to build an object file
+roundfTanks.cpp.o:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/roundfTanks.cpp.o
+.PHONY : roundfTanks.cpp.o
+
+roundfTanks.i: roundfTanks.cpp.i
+
+.PHONY : roundfTanks.i
+
+# target to preprocess a source file
+roundfTanks.cpp.i:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/roundfTanks.cpp.i
+.PHONY : roundfTanks.cpp.i
+
+roundfTanks.s: roundfTanks.cpp.s
+
+.PHONY : roundfTanks.s
+
+# target to generate assembly for a file
+roundfTanks.cpp.s:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/roundfTanks.cpp.s
+.PHONY : roundfTanks.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -411,6 +465,9 @@ help:
 	@echo "... Conroller.o"
 	@echo "... Conroller.i"
 	@echo "... Conroller.s"
+	@echo "... Eagle.o"
+	@echo "... Eagle.i"
+	@echo "... Eagle.s"
 	@echo "... Enemy.o"
 	@echo "... Enemy.i"
 	@echo "... Enemy.s"
@@ -432,6 +489,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... roundfTanks.o"
+	@echo "... roundfTanks.i"
+	@echo "... roundfTanks.s"
 .PHONY : help
 
 

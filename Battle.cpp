@@ -6,11 +6,14 @@
 Battle::Battle() {
 	_nc = new Nc();
 	_controller = new Controller(_nc, _vecTexture, _vecPlayer, _vecBullet);
-	_game = 0;
-	for (int i = 0; i < HEIGHT_BATTLE; i++)
-		for (int j = 0; j < WIDTH_BATTLE; j++)
-			_map[i][j] = 0;
+	_game = 1;
+	_map = new char [HEIGHT_BATTLE * WIDTH_BATTLE + 1];
+	for (int i = 0; i < HEIGHT_BATTLE * WIDTH_BATTLE + 1; i++)
+		_map[i] = 0;
+	_eagle = NULL;
 }
+
+//===================================================
 
 void		Battle::init() {
 	_nc->init();
@@ -28,31 +31,44 @@ void		Battle::choiseGame() {
 		_nc->wantQuit();
 }
 
-void		Battle::initTextures(int const lvl) {
-	ifstream	fin;
-	char		buff[WIDTH_BATTLE + 1];
-	Texture		*texture;
+//===================================================
 
-	fin.open("lvl/lvl01");
-	if (!fin.is_open())
-	{
-		std::cout << "BAD FILE" << std::endl;
-		std::exit(1);
-	}
+void		Battle::company() {}
+
+void		Battle::survival() {
+	_eagle = new Eagle();
+
+	initTextures(0);
+	initPlayers();
+	cycle();
+}
+
+//===================================================
+
+void		Battle::initTextures(int const lvl) {
+	ifstream		fin;
+	char			buff[WIDTH_BATTLE + 1];
+	Texture			*texture;
+	
+	openFileMap(&fin, lvl);
 	for (int i = 0; i < HEIGHT_BATTLE; i++) {
 		fin.getline(buff, WIDTH_BATTLE + 1);
 		buff[WIDTH_BATTLE] = 0;
 		for (int j = 0; j < WIDTH_BATTLE; j++) {
-			if ((texture = this->typeTexture(buff[j], j, i))) {
+			if ((texture = this->typeTexture(buff[j], j, i)))
 				_vecTexture.push_back(texture);
-				_map[i][j] = buff[j];
-			}
 		}
 	}
 	fin.close();
 }
 
-Texture *	Battle::typeTexture(int const type, int const x, int const y) const {
+void		Battle::openFileMap(ifstream * fin, int const lvl) const {
+	fin->open("lvl/lvl00"); // алгоритм вібора нужного лвл
+	if (!fin->is_open())
+		std::exit(1); ///////////////////////////////////////////////// ERROR OPEN
+}
+
+Texture *	Battle::typeTexture(int const type, float const x, float const y) const {
 	switch (type) {
 		case '0':
 			return (NULL);
@@ -67,60 +83,142 @@ Texture *	Battle::typeTexture(int const type, int const x, int const y) const {
 		case '5':
 			return (new Texture(5, 0, 1, 1, x, y));
 		default:
-			exit(-1); ///////////////////////////////////////////////// ERROR MAP
+			exit(1); ///////////////////////////////////////////////// ERROR MAP
 	}
 }
 
 void		Battle::initPlayers() {
 	Player *pl;
 
-	pl = new Player(1);
+	pl = new Player(1, START_POS_X_PL1, START_POS_Y_PL1);
 	_vecPlayer.push_back(pl);
 	if (_game == 1 || _game == 3) {
-		pl = new Player(2);
+		pl = new Player(2, START_POS_X_PL2, START_POS_Y_PL2);
 		_vecPlayer.push_back(pl);
 	}
 }
 
-void		Battle::company() {
-	initTextures(0);
-	initPlayers();
-	while (TRUE) {
-		this->fillMap();
-		_nc->printW1(_map);
-		_controller->getKey();
-	}
-}
+//===================================================
 
-void		Battle::survival() {}
+_Bool		Battle::cycle() {
+	int NTank = 0;
+
+	while (TRUE) {
+		for (int i = 0; i < _vecBullet.size(); i++) {
+			_vecBullet[i]->move();
+			checkBullet(i);
+		}
+		fillMap();
+		_nc->printW2(_map);
+		if (checkGameOver())
+			return (FALSE);
+		_controller->getKey();
+		if (NTank == 20 && !_vecEnemy.size())
+			break ;
+	}
+	return (TRUE);
+}
 
 void		Battle::fillMap() {
-	XYWay const		*xyway;
+	XYWay		xyway;
 
-	for (int i = 0; i < _vecPlayer.size(); i++) {
-		xyway = &_vecPlayer[i]->getXYWay();
-		_map[roundfBattle(xyway->getY())][roundfBattle(xyway->getX())] += _vecPlayer[i]->getType() * 10;
+	for (int i = 0; i < HEIGHT_BATTLE * WIDTH_BATTLE; i++)
+		_map[i] = 0;
+	xyway = _eagle->getXYWay();
+	_map[roundfTank(xyway.getY() * WIDTH_BATTLE) + roundfTank(xyway.getX())] = (char)9;
+	for (int i = 0; i < _vecTexture.size(); i++) {
+		xyway = _vecTexture[i]->getXYWay();
+		_map[roundfTank(xyway.getY() * WIDTH_BATTLE) + roundfTank(xyway.getX())] = (char)_vecTexture[i]->getType();
 	}
-	for (int i = 0; i < _vecEnemy.size(); i++) {
-		xyway = &_vecEnemy[i]->getXYWay();
-		_map[roundfBattle(xyway->getY())][roundfBattle(xyway->getX())] += _vecEnemy[i]->getType() * 10;
+//	for (int i = 0; i < _vecPlayer.size(); i++) {
+//		xyway = _vecPlayer[i]->getXYWay();
+//		_map[roundfTank(xyway.getY()) * WIDTH_BATTLE + roundfTank(xyway.getX())] += _vecPlayer[i]->getType() * 10;
+//	}
+//	for (int i = 0; i < _vecEnemy.size(); i++) {
+//		xyway = _vecEnemy[i]->getXYWay();
+//		_map[roundfTank(xyway.getY()) * WIDTH_BATTLE + roundfTank(xyway.getX())] += _vecEnemy[i]->getType() * 10;
+//	}
+//	for (int i = 0; i < _vecBullet.size(); i++) {
+//		xyway = _vecBullet[i]->getXYWay();
+//		_map[roundfTank(xyway.getY()) * WIDTH_BATTLE + roundfTank(xyway.getX())] += 90;
+//	}
+}
+
+//===================================================
+
+_Bool		Battle::checkGameOver() const {
+	if (_eagle)
+		return (FALSE);
+	for (int i = 0; i < _vecPlayer.size(); i++)
+		if (_vecPlayer[i]->getLifes() < 0)
+			return(FALSE);
+	return (TRUE);
+}
+
+void		Battle::checkBullet(int const i) {
+	for (int j = 0; j < _vecBullet.size(); j++) {
+		if (j == i)
+			continue ;
+		if (_vecBullet[j]->getXYWay() == _vecBullet[i]->getXYWay()) {
+			_vecBullet[i]->changeStatus();
+			_vecBullet[j]->changeStatus();
+			if (i > j)
+				_vecBullet.erase(_vecBullet.begin() + i, _vecBullet.begin() + j);
+			else
+				_vecBullet.erase(_vecBullet.begin() + j, _vecBullet.begin() + i);
+			return ;
+		}
 	}
-	for (int i = 0; i < _vecBullet.size(); i++) {
-		xyway = &_vecBullet[i]->getXYWay();
-		_map[roundfBattle(xyway->getY())][roundfBattle(xyway->getX())] += 90;
+	if (_eagle->getXYWay() == _vecBullet[i]->getXYWay()) {
+		_vecBullet[i]->changeStatus();
+		_vecBullet.erase(_vecBullet.begin() + i);
+		delete _eagle;
+		_eagle = NULL;
+		return ;
+	}
+	for (int j = 0; j < _vecTexture.size(); j++) {
+		if (_vecTexture[j]->getXYWay() == _vecBullet[i]->getXYWay()) {
+			if (_vecTexture[j]->getPassability())
+				break ;
+			_vecBullet[i]->changeStatus();
+			_vecBullet.erase(_vecBullet.begin() + i);
+			if (!_vecTexture[j]->takeDamage(_vecBullet[i]->getPower())) {
+				delete _vecTexture[j];
+				_vecTexture.erase(_vecTexture.begin() + j);
+			}
+			return ;
+		}
+	}
+	for (int j = 0; j < _vecPlayer.size(); j++) {
+		if (_vecPlayer[j]->getXYWay() == _vecBullet[i]->getXYWay()) {
+			_vecBullet[i]->changeStatus();
+			_vecBullet.erase(_vecBullet.begin() + i);
+			if (!_vecPlayer[j]->takeDamage()) {
+				_vecPlayer[j]->death();
+			}
+			return ;
+		}
+	}
+	for (int j = 0; j < _vecEnemy.size(); j++) {
+		if (_vecEnemy[j]->getXYWay() == _vecBullet[i]->getXYWay()) {
+			_vecBullet[i]->changeStatus();
+			_vecBullet.erase(_vecBullet.begin() + i);
+			if (!_vecEnemy[j]->takeDamage()) {
+				delete _vecEnemy[j];
+				_vecEnemy.erase(_vecEnemy.begin() + j);
+			}
+			return ;
+		}
 	}
 }
 
-int			roundfBattle(float const f) {
-	return (static_cast<int>(roundf(f)));
-}
-
+//===================================================
 
 Battle::~Battle() {
 	delete _nc;
 	delete _controller;
+	delete _map;
 }
-
 
 
 

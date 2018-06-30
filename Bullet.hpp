@@ -3,8 +3,6 @@
 
 # include "BestTanks.h"
 
-class ITank;
-
 class Bullet {
 
 	private:
@@ -12,6 +10,7 @@ class Bullet {
 		int				_power;
 		float			_speed;
 		XYWay			_xyway;
+		_Bool			_status;
 
 	public:
 
@@ -19,9 +18,13 @@ class Bullet {
 
 		int				getPower() const;
 		float			getSpeed() const;
-		XYWay			&getXYWay();
+		XYWay &			getXYWay();
+		_Bool			getStatus();
 
-		void			move(int const way);
+		void			setXYWay(XYWay const & xyway);
+
+		void			changeStatus();
+		void			move();
 
 		~Bullet();
 };

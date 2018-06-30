@@ -29,7 +29,7 @@ public:
 	void		changePause();
 	void		wantPause();
 	void		wantQuit();
-	void		printW1(vector<Player *> vecPl, vector<Bullet *> vecBul, vector<Texture *> vecTexture) const;
+	void		printW2(char * map) const;
 
 	~Nc();
 };

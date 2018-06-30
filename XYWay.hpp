@@ -13,6 +13,11 @@ class XYWay {
 
 	public:
 
+		XYWay();
+
+		XYWay &			operator = (XYWay const & obj);
+		_Bool			operator == (XYWay const & obj);
+
 		float			getX() const;
 		float			getY() const;
 		int				getWay() const;
@@ -20,5 +25,7 @@ class XYWay {
 		void			setX(float const x);
 		void			setY(float const y);
 		void			setWay(int const way);
+
+		~XYWay();
 };
 #endif

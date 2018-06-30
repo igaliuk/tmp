@@ -23,6 +23,8 @@ iostream
 -
 string
 -
+cmath
+-
 vector
 -
 ncurses.h
@@ -31,10 +33,14 @@ stdbool.h
 -
 XYWay.hpp
 /Users/igaliuk/False/ttt/XYWay.hpp
-ITank.hpp
-/Users/igaliuk/False/ttt/ITank.hpp
+Tank.hpp
+/Users/igaliuk/False/ttt/Tank.hpp
 Player.hpp
 /Users/igaliuk/False/ttt/Player.hpp
+Enemy.hpp
+/Users/igaliuk/False/ttt/Enemy.hpp
+Eagle.hpp
+/Users/igaliuk/False/ttt/Eagle.hpp
 Bullet.hpp
 /Users/igaliuk/False/ttt/Bullet.hpp
 Texture.hpp
@@ -62,7 +68,19 @@ BestTanks.h
 BestTanks.h
 /Users/igaliuk/False/ttt/BestTanks.h
 
-/Users/igaliuk/False/ttt/ITank.hpp
+/Users/igaliuk/False/ttt/Eagle.cpp
+BestTanks.h
+/Users/igaliuk/False/ttt/BestTanks.h
+
+/Users/igaliuk/False/ttt/Eagle.hpp
+BestTanks.h
+/Users/igaliuk/False/ttt/BestTanks.h
+
+/Users/igaliuk/False/ttt/Enemy.cpp
+BestTanks.h
+/Users/igaliuk/False/ttt/BestTanks.h
+
+/Users/igaliuk/False/ttt/Enemy.hpp
 BestTanks.h
 /Users/igaliuk/False/ttt/BestTanks.h
 
@@ -79,6 +97,14 @@ BestTanks.h
 /Users/igaliuk/False/ttt/BestTanks.h
 
 /Users/igaliuk/False/ttt/Player.hpp
+BestTanks.h
+/Users/igaliuk/False/ttt/BestTanks.h
+
+/Users/igaliuk/False/ttt/Tank.cpp
+BestTanks.h
+/Users/igaliuk/False/ttt/BestTanks.h
+
+/Users/igaliuk/False/ttt/Tank.hpp
 BestTanks.h
 /Users/igaliuk/False/ttt/BestTanks.h
 

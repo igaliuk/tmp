@@ -10,29 +10,35 @@ class Battle {
 		Nc						*_nc;
 		Controller				*_controller;
 		int						_game;
-		int						_map[HEIGHT_BATTLE][WIDTH_BATTLE];
+		char					*_map;
+		Eagle *					_eagle;
 		vector<Texture *>		_vecTexture;
 		vector<Player *>		_vecPlayer;
 		vector<Player *>		_vecEnemy;
 		vector<Bullet *>		_vecBullet;
 
 	public:
-	
+
 		Battle();
-		
+
 		void		init();
 		void		choiseGame();
-		void		initTextures(int const lvl);
-		Texture *	typeTexture(int const type, int const x, int const y) const;
-		void		initPlayers();
+
 		void		company();
 		void		survival();
+
+		void		initTextures(int const lvl);
+		void		openFileMap(ifstream * fin, int const lvl) const;
+		Texture *	typeTexture(int const type, float const x, float const y) const;
+		void		initPlayers();
+
 		void		fillMap();
-	
-		int			roundfBattle(float const f);
-	
+		_Bool		cycle();
+
+		_Bool		checkGameOver() const;
+		void		checkBullet(int const i);
+
 		~Battle();
-	
 	
 	
 	void	print2();

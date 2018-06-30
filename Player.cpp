@@ -2,18 +2,20 @@
 
 Player::Player() {}
 
-Player::Player(int const type, int const x, int const y) {
+Player::Player(int const type, float const x, float const y) {
 	_type = type;
 	_rank = 0;
 	_HP = 1;
 	_lifes = 3;
 	_score = 0;
 	_ammo = 1;
-	_speed = 0;
+	_speed = SPEED_TANK1;
 	_xyway.setX(x);
 	_xyway.setY(y);
 	_xyway.setWay(UP);
+	_freeze = FREEZE;
 	_bullet = new Bullet(SPEED_BULLET1);
+	_bullet2 = new Bullet(SPEED_BULLET2);
 }
 
 //===================================================
@@ -46,13 +48,43 @@ void		Player::setScore(int const score) {
 
 //===================================================
 
-Player::~Player() {}
+Bullet *	Player::attack() {
+	if (_ammo > 0) {
+		_ammo--;
+		if (!_bullet->getStatus()) {
+			_bullet->changeStatus();
+			_bullet->setXYWay(_xyway);
+			return (_bullet);
+		}
+		if (!_bullet2->getStatus()) {
+			_bullet2->changeStatus();
+			_bullet2->setXYWay(_xyway);
+			return (_bullet2);
+		}
+	}
+	return (NULL);
+}
 
-//if (type == 1) {
-//_xyway.setX(START_POS_X_PL1);
-//_xyway.setY(START_POS_Y_PL1);
-//}
-//else {
-//_xyway.setX(START_POS_X_PL2);
-//_xyway.setY(START_POS_Y_PL2);
-//}
+void		Player::death() {
+	_rank = 0;
+	_HP = 1;
+	_lifes--;
+	_speed = SPEED_TANK1;
+	if (_type == 1) {
+		_xyway.setX(START_POS_X_PL1);
+		_xyway.setY(START_POS_Y_PL1);
+	}
+	else {
+		_xyway.setX(START_POS_X_PL2);
+		_xyway.setY(START_POS_Y_PL2);
+	}
+	_xyway.setWay(UP);
+	_freeze = FREEZE;
+}
+
+//===================================================
+
+Player::~Player() {
+	delete _bullet;
+	delete _bullet2;
+}
