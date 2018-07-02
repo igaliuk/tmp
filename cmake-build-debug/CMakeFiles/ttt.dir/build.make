@@ -249,28 +249,28 @@ CMakeFiles/ttt.dir/XYWay.cpp.o.provides: CMakeFiles/ttt.dir/XYWay.cpp.o.requires
 CMakeFiles/ttt.dir/XYWay.cpp.o.provides.build: CMakeFiles/ttt.dir/XYWay.cpp.o
 
 
-CMakeFiles/ttt.dir/Battle.cpp.o: CMakeFiles/ttt.dir/flags.make
-CMakeFiles/ttt.dir/Battle.cpp.o: ../Battle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ttt.dir/Battle.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttt.dir/Battle.cpp.o -c /Users/igaliuk/False/ttt/Battle.cpp
+CMakeFiles/ttt.dir/Game.cpp.o: CMakeFiles/ttt.dir/flags.make
+CMakeFiles/ttt.dir/Game.cpp.o: ../Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ttt.dir/Game.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttt.dir/Game.cpp.o -c /Users/igaliuk/False/ttt/Game.cpp
 
-CMakeFiles/ttt.dir/Battle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttt.dir/Battle.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/igaliuk/False/ttt/Battle.cpp > CMakeFiles/ttt.dir/Battle.cpp.i
+CMakeFiles/ttt.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttt.dir/Game.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/igaliuk/False/ttt/Game.cpp > CMakeFiles/ttt.dir/Game.cpp.i
 
-CMakeFiles/ttt.dir/Battle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttt.dir/Battle.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igaliuk/False/ttt/Battle.cpp -o CMakeFiles/ttt.dir/Battle.cpp.s
+CMakeFiles/ttt.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttt.dir/Game.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igaliuk/False/ttt/Game.cpp -o CMakeFiles/ttt.dir/Game.cpp.s
 
-CMakeFiles/ttt.dir/Battle.cpp.o.requires:
+CMakeFiles/ttt.dir/Game.cpp.o.requires:
 
-.PHONY : CMakeFiles/ttt.dir/Battle.cpp.o.requires
+.PHONY : CMakeFiles/ttt.dir/Game.cpp.o.requires
 
-CMakeFiles/ttt.dir/Battle.cpp.o.provides: CMakeFiles/ttt.dir/Battle.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Battle.cpp.o.provides.build
-.PHONY : CMakeFiles/ttt.dir/Battle.cpp.o.provides
+CMakeFiles/ttt.dir/Game.cpp.o.provides: CMakeFiles/ttt.dir/Game.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Game.cpp.o.provides.build
+.PHONY : CMakeFiles/ttt.dir/Game.cpp.o.provides
 
-CMakeFiles/ttt.dir/Battle.cpp.o.provides.build: CMakeFiles/ttt.dir/Battle.cpp.o
+CMakeFiles/ttt.dir/Game.cpp.o.provides.build: CMakeFiles/ttt.dir/Game.cpp.o
 
 
 CMakeFiles/ttt.dir/Nc.cpp.o: CMakeFiles/ttt.dir/flags.make
@@ -345,6 +345,54 @@ CMakeFiles/ttt.dir/roundfTanks.cpp.o.provides: CMakeFiles/ttt.dir/roundfTanks.cp
 CMakeFiles/ttt.dir/roundfTanks.cpp.o.provides.build: CMakeFiles/ttt.dir/roundfTanks.cpp.o
 
 
+CMakeFiles/ttt.dir/Menu.cpp.o: CMakeFiles/ttt.dir/flags.make
+CMakeFiles/ttt.dir/Menu.cpp.o: ../Menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ttt.dir/Menu.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttt.dir/Menu.cpp.o -c /Users/igaliuk/False/ttt/Menu.cpp
+
+CMakeFiles/ttt.dir/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttt.dir/Menu.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/igaliuk/False/ttt/Menu.cpp > CMakeFiles/ttt.dir/Menu.cpp.i
+
+CMakeFiles/ttt.dir/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttt.dir/Menu.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igaliuk/False/ttt/Menu.cpp -o CMakeFiles/ttt.dir/Menu.cpp.s
+
+CMakeFiles/ttt.dir/Menu.cpp.o.requires:
+
+.PHONY : CMakeFiles/ttt.dir/Menu.cpp.o.requires
+
+CMakeFiles/ttt.dir/Menu.cpp.o.provides: CMakeFiles/ttt.dir/Menu.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Menu.cpp.o.provides.build
+.PHONY : CMakeFiles/ttt.dir/Menu.cpp.o.provides
+
+CMakeFiles/ttt.dir/Menu.cpp.o.provides.build: CMakeFiles/ttt.dir/Menu.cpp.o
+
+
+CMakeFiles/ttt.dir/Survival.cpp.o: CMakeFiles/ttt.dir/flags.make
+CMakeFiles/ttt.dir/Survival.cpp.o: ../Survival.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ttt.dir/Survival.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttt.dir/Survival.cpp.o -c /Users/igaliuk/False/ttt/Survival.cpp
+
+CMakeFiles/ttt.dir/Survival.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttt.dir/Survival.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/igaliuk/False/ttt/Survival.cpp > CMakeFiles/ttt.dir/Survival.cpp.i
+
+CMakeFiles/ttt.dir/Survival.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttt.dir/Survival.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igaliuk/False/ttt/Survival.cpp -o CMakeFiles/ttt.dir/Survival.cpp.s
+
+CMakeFiles/ttt.dir/Survival.cpp.o.requires:
+
+.PHONY : CMakeFiles/ttt.dir/Survival.cpp.o.requires
+
+CMakeFiles/ttt.dir/Survival.cpp.o.provides: CMakeFiles/ttt.dir/Survival.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Survival.cpp.o.provides.build
+.PHONY : CMakeFiles/ttt.dir/Survival.cpp.o.provides
+
+CMakeFiles/ttt.dir/Survival.cpp.o.provides.build: CMakeFiles/ttt.dir/Survival.cpp.o
+
+
 # Object files for target ttt
 ttt_OBJECTS = \
 "CMakeFiles/ttt.dir/main.cpp.o" \
@@ -355,10 +403,12 @@ ttt_OBJECTS = \
 "CMakeFiles/ttt.dir/Eagle.cpp.o" \
 "CMakeFiles/ttt.dir/Texture.cpp.o" \
 "CMakeFiles/ttt.dir/XYWay.cpp.o" \
-"CMakeFiles/ttt.dir/Battle.cpp.o" \
+"CMakeFiles/ttt.dir/Game.cpp.o" \
 "CMakeFiles/ttt.dir/Nc.cpp.o" \
 "CMakeFiles/ttt.dir/Conroller.cpp.o" \
-"CMakeFiles/ttt.dir/roundfTanks.cpp.o"
+"CMakeFiles/ttt.dir/roundfTanks.cpp.o" \
+"CMakeFiles/ttt.dir/Menu.cpp.o" \
+"CMakeFiles/ttt.dir/Survival.cpp.o"
 
 # External object files for target ttt
 ttt_EXTERNAL_OBJECTS =
@@ -371,13 +421,15 @@ ttt: CMakeFiles/ttt.dir/Enemy.cpp.o
 ttt: CMakeFiles/ttt.dir/Eagle.cpp.o
 ttt: CMakeFiles/ttt.dir/Texture.cpp.o
 ttt: CMakeFiles/ttt.dir/XYWay.cpp.o
-ttt: CMakeFiles/ttt.dir/Battle.cpp.o
+ttt: CMakeFiles/ttt.dir/Game.cpp.o
 ttt: CMakeFiles/ttt.dir/Nc.cpp.o
 ttt: CMakeFiles/ttt.dir/Conroller.cpp.o
 ttt: CMakeFiles/ttt.dir/roundfTanks.cpp.o
+ttt: CMakeFiles/ttt.dir/Menu.cpp.o
+ttt: CMakeFiles/ttt.dir/Survival.cpp.o
 ttt: CMakeFiles/ttt.dir/build.make
 ttt: CMakeFiles/ttt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ttt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable ttt"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ttt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -393,10 +445,12 @@ CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Enemy.cpp.o.requires
 CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Eagle.cpp.o.requires
 CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Texture.cpp.o.requires
 CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/XYWay.cpp.o.requires
-CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Battle.cpp.o.requires
+CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Game.cpp.o.requires
 CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Nc.cpp.o.requires
 CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Conroller.cpp.o.requires
 CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/roundfTanks.cpp.o.requires
+CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Menu.cpp.o.requires
+CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Survival.cpp.o.requires
 
 .PHONY : CMakeFiles/ttt.dir/requires
 

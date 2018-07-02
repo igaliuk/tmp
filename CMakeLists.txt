@@ -12,7 +12,7 @@ add_executable(ttt main.cpp
         Eagle.cpp Eagle.hpp
         Texture.cpp Texture.hpp
         XYWay.cpp XYWay.hpp
-        Battle.cpp Battle.hpp
+        Game.cpp Game.hpp
         Nc.cpp Nc.hpp
         Conroller.cpp Controller.hpp
-        roundfTanks.cpp)
+        roundfTanks.cpp Menu.cpp Menu.hpp Survival.cpp Survival.hpp)

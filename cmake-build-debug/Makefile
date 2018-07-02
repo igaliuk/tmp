@@ -123,33 +123,6 @@ ttt/fast:
 	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/build
 .PHONY : ttt/fast
 
-Battle.o: Battle.cpp.o
-
-.PHONY : Battle.o
-
-# target to build an object file
-Battle.cpp.o:
-	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Battle.cpp.o
-.PHONY : Battle.cpp.o
-
-Battle.i: Battle.cpp.i
-
-.PHONY : Battle.i
-
-# target to preprocess a source file
-Battle.cpp.i:
-	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Battle.cpp.i
-.PHONY : Battle.cpp.i
-
-Battle.s: Battle.cpp.s
-
-.PHONY : Battle.s
-
-# target to generate assembly for a file
-Battle.cpp.s:
-	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Battle.cpp.s
-.PHONY : Battle.cpp.s
-
 Bullet.o: Bullet.cpp.o
 
 .PHONY : Bullet.o
@@ -258,6 +231,60 @@ Enemy.cpp.s:
 	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Enemy.cpp.s
 .PHONY : Enemy.cpp.s
 
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+Menu.o: Menu.cpp.o
+
+.PHONY : Menu.o
+
+# target to build an object file
+Menu.cpp.o:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Menu.cpp.o
+.PHONY : Menu.cpp.o
+
+Menu.i: Menu.cpp.i
+
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
 Nc.o: Nc.cpp.o
 
 .PHONY : Nc.o
@@ -311,6 +338,33 @@ Player.s: Player.cpp.s
 Player.cpp.s:
 	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Player.cpp.s
 .PHONY : Player.cpp.s
+
+Survival.o: Survival.cpp.o
+
+.PHONY : Survival.o
+
+# target to build an object file
+Survival.cpp.o:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Survival.cpp.o
+.PHONY : Survival.cpp.o
+
+Survival.i: Survival.cpp.i
+
+.PHONY : Survival.i
+
+# target to preprocess a source file
+Survival.cpp.i:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Survival.cpp.i
+.PHONY : Survival.cpp.i
+
+Survival.s: Survival.cpp.s
+
+.PHONY : Survival.s
+
+# target to generate assembly for a file
+Survival.cpp.s:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Survival.cpp.s
+.PHONY : Survival.cpp.s
 
 Tank.o: Tank.cpp.o
 
@@ -456,9 +510,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ttt"
-	@echo "... Battle.o"
-	@echo "... Battle.i"
-	@echo "... Battle.s"
 	@echo "... Bullet.o"
 	@echo "... Bullet.i"
 	@echo "... Bullet.s"
@@ -471,12 +522,21 @@ help:
 	@echo "... Enemy.o"
 	@echo "... Enemy.i"
 	@echo "... Enemy.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
+	@echo "... Menu.o"
+	@echo "... Menu.i"
+	@echo "... Menu.s"
 	@echo "... Nc.o"
 	@echo "... Nc.i"
 	@echo "... Nc.s"
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"
+	@echo "... Survival.o"
+	@echo "... Survival.i"
+	@echo "... Survival.s"
 	@echo "... Tank.o"
 	@echo "... Tank.i"
 	@echo "... Tank.s"

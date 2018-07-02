@@ -10,13 +10,13 @@ class Controller {
 	private:
 
 		Nc						*_nc;
-		vector<Texture *>		&_vecTexture;
-		vector<Player *>		&_vecPlayer;
-		vector<Bullet *>		&_vecBullet;
+//		vector<Player *>		&_vecPlayer;
+//		vector<Bullet *>		&_vecBullet;
 
 	public:
 
-		Controller(Nc * nc, vector<Texture *> & vecTexture, vector<Player *> & vecPlayer, vector<Bullet *> & vecBullet);
+		Controller(Nc * nc);
+//		Controller(Nc * nc, vector<Texture *> & vecTexture, vector<Player *> & vecPlayer, vector<Bullet *> & vecBullet);
 
 		void			getKey();
 

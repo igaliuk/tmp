@@ -80,12 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/igaliuk/False/ttt/Battle.cpp">
-			<Option target="ttt"/>
-		</Unit>
-		<Unit filename="/Users/igaliuk/False/ttt/Battle.hpp">
-			<Option target="ttt"/>
-		</Unit>
 		<Unit filename="/Users/igaliuk/False/ttt/BestTanks.h">
 			<Option target="ttt"/>
 		</Unit>
@@ -113,6 +107,18 @@
 		<Unit filename="/Users/igaliuk/False/ttt/Enemy.hpp">
 			<Option target="ttt"/>
 		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Game.cpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Game.hpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Menu.cpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Menu.hpp">
+			<Option target="ttt"/>
+		</Unit>
 		<Unit filename="/Users/igaliuk/False/ttt/Nc.cpp">
 			<Option target="ttt"/>
 		</Unit>
@@ -123,6 +129,12 @@
 			<Option target="ttt"/>
 		</Unit>
 		<Unit filename="/Users/igaliuk/False/ttt/Player.hpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Survival.cpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Survival.hpp">
 			<Option target="ttt"/>
 		</Unit>
 		<Unit filename="/Users/igaliuk/False/ttt/Tank.cpp">

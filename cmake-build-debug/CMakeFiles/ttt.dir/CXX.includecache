@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/igaliuk/False/ttt/Battle.cpp
-BestTanks.h
-/Users/igaliuk/False/ttt/BestTanks.h
-fstream
--
-sstream
--
-
-/Users/igaliuk/False/ttt/Battle.hpp
-BestTanks.h
-/Users/igaliuk/False/ttt/BestTanks.h
-
 /Users/igaliuk/False/ttt/BestTanks.h
 iostream
 -
@@ -49,8 +37,12 @@ Controller.hpp
 /Users/igaliuk/False/ttt/Controller.hpp
 Nc.hpp
 /Users/igaliuk/False/ttt/Nc.hpp
-Battle.hpp
-/Users/igaliuk/False/ttt/Battle.hpp
+Game.hpp
+/Users/igaliuk/False/ttt/Game.hpp
+Survival.hpp
+/Users/igaliuk/False/ttt/Survival.hpp
+Menu.hpp
+/Users/igaliuk/False/ttt/Menu.hpp
 
 /Users/igaliuk/False/ttt/Bullet.cpp
 BestTanks.h
@@ -84,6 +76,26 @@ BestTanks.h
 BestTanks.h
 /Users/igaliuk/False/ttt/BestTanks.h
 
+/Users/igaliuk/False/ttt/Game.cpp
+BestTanks.h
+/Users/igaliuk/False/ttt/BestTanks.h
+fstream
+-
+sstream
+-
+
+/Users/igaliuk/False/ttt/Game.hpp
+BestTanks.h
+/Users/igaliuk/False/ttt/BestTanks.h
+
+/Users/igaliuk/False/ttt/Menu.cpp
+BestTanks.h
+/Users/igaliuk/False/ttt/BestTanks.h
+
+/Users/igaliuk/False/ttt/Menu.hpp
+BestTanks.h
+/Users/igaliuk/False/ttt/BestTanks.h
+
 /Users/igaliuk/False/ttt/Nc.cpp
 BestTanks.h
 /Users/igaliuk/False/ttt/BestTanks.h
@@ -97,6 +109,14 @@ BestTanks.h
 /Users/igaliuk/False/ttt/BestTanks.h
 
 /Users/igaliuk/False/ttt/Player.hpp
+BestTanks.h
+/Users/igaliuk/False/ttt/BestTanks.h
+
+/Users/igaliuk/False/ttt/Survival.cpp
+BestTanks.h
+/Users/igaliuk/False/ttt/BestTanks.h
+
+/Users/igaliuk/False/ttt/Survival.hpp
 BestTanks.h
 /Users/igaliuk/False/ttt/BestTanks.h
 
@@ -125,6 +145,10 @@ BestTanks.h
 /Users/igaliuk/False/ttt/BestTanks.h
 
 /Users/igaliuk/False/ttt/main.cpp
+BestTanks.h
+/Users/igaliuk/False/ttt/BestTanks.h
+
+/Users/igaliuk/False/ttt/roundfTanks.cpp
 BestTanks.h
 /Users/igaliuk/False/ttt/BestTanks.h
 

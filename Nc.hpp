@@ -29,7 +29,8 @@ public:
 	void		changePause();
 	void		wantPause();
 	void		wantQuit();
-	void		printW2(char * map) const;
+	void		printW2(Eagle &_eagle, vector<Texture *> & _vecTexture, vector<Player *> & _vecPlayer, vector<Player *> & _vecEnemy, vector<Bullet *> & _vecBullet) const;
+//	void		printW2(char * map) const;
 
 	~Nc();
 };

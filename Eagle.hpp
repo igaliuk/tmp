@@ -7,9 +7,9 @@ class Eagle : public Tank {
 
 	private:
 
-		int				_HP;
-		XYWay			_xyway;
-		int				_freeze;
+//		int				_HP;
+//		XYWay			_xyway;
+//		int				_freeze;
 
 	public:
 

@@ -90,7 +90,9 @@ int			roundfTank(float const f);
 # include "Texture.hpp"
 # include "Controller.hpp"
 # include "Nc.hpp"
-# include "Battle.hpp"
+# include "Game.hpp"
+# include "Survival.hpp"
+# include "Menu.hpp"
 
 
 

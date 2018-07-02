@@ -1,10 +1,10 @@
 #include "BestTanks.h"
 
 int		main() {
-	Battle battle;
+	Menu menu;
 
-	battle.init();
+	menu.init();
 	while (TRUE) {
-		battle.choiseGame();
+		menu.choiseGame();
 	}
 }
