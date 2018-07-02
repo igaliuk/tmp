@@ -21,6 +21,8 @@ class Bullet {
 		XYWay &			getXYWay();
 		_Bool			getStatus();
 
+    void           setPower(int const power);
+    void        setSpeed(float const speed);
 		void			setXYWay(XYWay const & xyway);
 
 		void			changeStatus();

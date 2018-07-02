@@ -1,11 +1,17 @@
 #include "BestTanks.h"
 
 Eagle::Eagle() {
+    _type = EAGLE;
+    _respTime = 0;
 	_HP = 1;
+    _ammo = 0;
+    _speed = 0;
 	_xyway.setX(START_POS_X_EA);
 	_xyway.setY(START_POS_Y_EA);
 	_xyway.setWay(0);
 	_freeze = 0;
+    _bullet = NULL;
+    _bullet2 = NULL;
 }
 
 //===================================================

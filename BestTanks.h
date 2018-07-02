@@ -14,6 +14,16 @@ int			roundfTank(float const f);
 
 //////////////////////////////////////////////
 
+# define PLAYER1                1
+# define PLAYER2                2
+# define EAGLE                   3
+# define ENEMY1                4
+# define ENEMY2                5
+# define ENEMY3                6
+# define ENEMY4                7
+
+//////////////////////////////////////////////
+
 # define HEIGHT_BATTLE			13
 # define WIDTH_BATTLE			13
 
@@ -32,8 +42,9 @@ int			roundfTank(float const f);
 
 //////////////////////////////////////////////
 
-# define STEPTIME				50
-# define FREEZE					2000
+# define STEP_TIME				50
+# define RESP_TIME					2000
+# define FREEZE_TIME                    10000
 
 //////////////////////////////////////////////
 
@@ -57,7 +68,6 @@ int			roundfTank(float const f);
 # define SPEED_TANK1			1.0f
 # define SPEED_TANK2			2.0f
 # define SPEED_TANK3			3.0f
-# define SPEED_TANK4			4.0f
 
 # define SPEED_BULLET1			1.0f
 # define SPEED_BULLET2			2.0f

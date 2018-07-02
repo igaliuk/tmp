@@ -1,17 +1,17 @@
 #include "BestTanks.h"
 
-Enemy::Enemy() {}
-
 Enemy::Enemy(int const type, float const tspeed, float const x, float const y, float bspeed) {
 	_type = type;
+    _respTime = RESP_TIME;
 	_HP = 1;
 	_ammo = 1;
 	_speed = tspeed;
 	_xyway.setX(x);
 	_xyway.setY(y);
 	_xyway.setWay(DOWN);
-	_freeze = FREEZE;
+    _freeze = 0;
 	_bullet = new Bullet(bspeed);
+    _bullet2 = NULL;
 }
 
 //===================================================

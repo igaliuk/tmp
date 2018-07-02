@@ -6,6 +6,7 @@ Bullet::Bullet(float const speed) {
 	_xyway.setX(-1.0f);
 	_xyway.setY(-1.0f);
 	_xyway.setWay(0);
+    _status = FALSE;
 }
 
 //===================================================
@@ -27,6 +28,14 @@ _Bool		Bullet::getStatus() {
 }
 
 //===================================================
+
+void           Bullet::setPower(int const power) {
+    _power = power;
+}
+
+void        Bullet::setSpeed(float const speed) {
+    _speed = speed;
+}
 
 void		Bullet::setXYWay(XYWay const & xyway) {
 	_xyway = xyway;

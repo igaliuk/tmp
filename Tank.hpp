@@ -10,6 +10,7 @@ class Tank {
 	private:
 
 		int				_type;
+        int             _respTime;
 		int				_HP;
 		int				_ammo;
 		float			_speed;
@@ -23,6 +24,7 @@ class Tank {
 		Tank();
 
 		int						getType() const;
+        int                     getRespTime() const;
 		int						getHP() const;
 		int						getAmmo() const;
 		float					getSpeed() const;

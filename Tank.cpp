@@ -1,11 +1,27 @@
 #include "BestTanks.h"
 
-Tank::Tank() {}
+Tank::Tank() {
+    _type = 0;
+    _respTime = 0;
+    _HP = 0;
+    _ammo = 0;
+    _speed = 0;
+    _xyway.setX(-1.0f);
+    _xyway.setY(-1.0f);
+    _xyway.setWay(0);
+    _freeze = 0;
+    _bullet = NULL;
+    _bullet2 = NULL;
+}
 
 //===================================================
 
 int			Tank::getType() const {
 	return (_type);
+}
+
+int            Tank::getRespTime() const {
+    return (_respTime);
 }
 
 int			Tank::getHP() const {
@@ -45,7 +61,7 @@ void		Tank::setSpeed(float const speed) {
 //===================================================
 
 void		Tank::changeFreeze() {
-	_freeze -= STEPTIME;
+	_freeze -= STEP_TIME;
 }
 
 void		Tank::turn(int const way) {
