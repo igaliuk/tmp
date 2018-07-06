@@ -9,7 +9,7 @@ class Enemy : public Tank {
 
 	public:
 
-		Enemy(int const type, float const tspeed, float const x, float const y, float bspeed);
+		Enemy(int const type, int const HP, float const tspeed, float const x, float const y, float bspeed);
 
 		virtual Bullet *		attack();
 

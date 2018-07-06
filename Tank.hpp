@@ -7,12 +7,11 @@ class Bullet;
 
 class Tank {
 
-	private:
+	protected:
 
 		int				_type;
-        int             _respTime;
+		int				_resp;
 		int				_HP;
-		int				_ammo;
 		float			_speed;
 		XYWay			_xyway;
 		int				_freeze;
@@ -24,22 +23,21 @@ class Tank {
 		Tank();
 
 		int						getType() const;
-        int                     getRespTime() const;
+		int						getResp() const;
 		int						getHP() const;
-		int						getAmmo() const;
 		float					getSpeed() const;
 		XYWay &					getXYWay();
-		int						getFreeze();
+		int						getFreeze() const;
 
+		void					setType(int const type);
 		void					setHP(int const HP);
-		void					setAmmo(int const  ammo);
 		void					setSpeed(float const speed);
+		void					setFreeze(int const freeze);
 
 		virtual Bullet *		attack() = 0;
 		void					changeFreeze();
 		void					turn(int const way);
-		void					move(int const way);
-		void					reload();
+		void					move(int const way, string const mapOfPassability);
 		_Bool					takeDamage();
 
 		virtual ~Tank();

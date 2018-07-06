@@ -21,10 +21,10 @@ class Player : public Tank {
 
 		void					setRank(int const rank);
 		void					setLifes(int const lifes);
-		void					setScore(int const score);
 
 		virtual Bullet *		attack();
-    void       upRank();
+		void					upRank();
+		void					upScore(int const points);
 		void					death();
 
 		virtual ~Player();

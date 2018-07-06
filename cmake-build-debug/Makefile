@@ -123,6 +123,195 @@ ttt/fast:
 	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/build
 .PHONY : ttt/fast
 
+Bonus.o: Bonus.cpp.o
+
+.PHONY : Bonus.o
+
+# target to build an object file
+Bonus.cpp.o:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus.cpp.o
+.PHONY : Bonus.cpp.o
+
+Bonus.i: Bonus.cpp.i
+
+.PHONY : Bonus.i
+
+# target to preprocess a source file
+Bonus.cpp.i:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus.cpp.i
+.PHONY : Bonus.cpp.i
+
+Bonus.s: Bonus.cpp.s
+
+.PHONY : Bonus.s
+
+# target to generate assembly for a file
+Bonus.cpp.s:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus.cpp.s
+.PHONY : Bonus.cpp.s
+
+Bonus1.o: Bonus1.cpp.o
+
+.PHONY : Bonus1.o
+
+# target to build an object file
+Bonus1.cpp.o:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus1.cpp.o
+.PHONY : Bonus1.cpp.o
+
+Bonus1.i: Bonus1.cpp.i
+
+.PHONY : Bonus1.i
+
+# target to preprocess a source file
+Bonus1.cpp.i:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus1.cpp.i
+.PHONY : Bonus1.cpp.i
+
+Bonus1.s: Bonus1.cpp.s
+
+.PHONY : Bonus1.s
+
+# target to generate assembly for a file
+Bonus1.cpp.s:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus1.cpp.s
+.PHONY : Bonus1.cpp.s
+
+Bonus2.o: Bonus2.cpp.o
+
+.PHONY : Bonus2.o
+
+# target to build an object file
+Bonus2.cpp.o:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus2.cpp.o
+.PHONY : Bonus2.cpp.o
+
+Bonus2.i: Bonus2.cpp.i
+
+.PHONY : Bonus2.i
+
+# target to preprocess a source file
+Bonus2.cpp.i:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus2.cpp.i
+.PHONY : Bonus2.cpp.i
+
+Bonus2.s: Bonus2.cpp.s
+
+.PHONY : Bonus2.s
+
+# target to generate assembly for a file
+Bonus2.cpp.s:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus2.cpp.s
+.PHONY : Bonus2.cpp.s
+
+Bonus3.o: Bonus3.cpp.o
+
+.PHONY : Bonus3.o
+
+# target to build an object file
+Bonus3.cpp.o:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus3.cpp.o
+.PHONY : Bonus3.cpp.o
+
+Bonus3.i: Bonus3.cpp.i
+
+.PHONY : Bonus3.i
+
+# target to preprocess a source file
+Bonus3.cpp.i:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus3.cpp.i
+.PHONY : Bonus3.cpp.i
+
+Bonus3.s: Bonus3.cpp.s
+
+.PHONY : Bonus3.s
+
+# target to generate assembly for a file
+Bonus3.cpp.s:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus3.cpp.s
+.PHONY : Bonus3.cpp.s
+
+Bonus4.o: Bonus4.cpp.o
+
+.PHONY : Bonus4.o
+
+# target to build an object file
+Bonus4.cpp.o:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus4.cpp.o
+.PHONY : Bonus4.cpp.o
+
+Bonus4.i: Bonus4.cpp.i
+
+.PHONY : Bonus4.i
+
+# target to preprocess a source file
+Bonus4.cpp.i:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus4.cpp.i
+.PHONY : Bonus4.cpp.i
+
+Bonus4.s: Bonus4.cpp.s
+
+.PHONY : Bonus4.s
+
+# target to generate assembly for a file
+Bonus4.cpp.s:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus4.cpp.s
+.PHONY : Bonus4.cpp.s
+
+Bonus5.o: Bonus5.cpp.o
+
+.PHONY : Bonus5.o
+
+# target to build an object file
+Bonus5.cpp.o:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus5.cpp.o
+.PHONY : Bonus5.cpp.o
+
+Bonus5.i: Bonus5.cpp.i
+
+.PHONY : Bonus5.i
+
+# target to preprocess a source file
+Bonus5.cpp.i:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus5.cpp.i
+.PHONY : Bonus5.cpp.i
+
+Bonus5.s: Bonus5.cpp.s
+
+.PHONY : Bonus5.s
+
+# target to generate assembly for a file
+Bonus5.cpp.s:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus5.cpp.s
+.PHONY : Bonus5.cpp.s
+
+Bonus6.o: Bonus6.cpp.o
+
+.PHONY : Bonus6.o
+
+# target to build an object file
+Bonus6.cpp.o:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus6.cpp.o
+.PHONY : Bonus6.cpp.o
+
+Bonus6.i: Bonus6.cpp.i
+
+.PHONY : Bonus6.i
+
+# target to preprocess a source file
+Bonus6.cpp.i:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus6.cpp.i
+.PHONY : Bonus6.cpp.i
+
+Bonus6.s: Bonus6.cpp.s
+
+.PHONY : Bonus6.s
+
+# target to generate assembly for a file
+Bonus6.cpp.s:
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus6.cpp.s
+.PHONY : Bonus6.cpp.s
+
 Bullet.o: Bullet.cpp.o
 
 .PHONY : Bullet.o
@@ -510,6 +699,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ttt"
+	@echo "... Bonus.o"
+	@echo "... Bonus.i"
+	@echo "... Bonus.s"
+	@echo "... Bonus1.o"
+	@echo "... Bonus1.i"
+	@echo "... Bonus1.s"
+	@echo "... Bonus2.o"
+	@echo "... Bonus2.i"
+	@echo "... Bonus2.s"
+	@echo "... Bonus3.o"
+	@echo "... Bonus3.i"
+	@echo "... Bonus3.s"
+	@echo "... Bonus4.o"
+	@echo "... Bonus4.i"
+	@echo "... Bonus4.s"
+	@echo "... Bonus5.o"
+	@echo "... Bonus5.i"
+	@echo "... Bonus5.s"
+	@echo "... Bonus6.o"
+	@echo "... Bonus6.i"
+	@echo "... Bonus6.s"
 	@echo "... Bullet.o"
 	@echo "... Bullet.i"
 	@echo "... Bullet.s"

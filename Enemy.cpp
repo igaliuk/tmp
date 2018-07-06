@@ -1,29 +1,26 @@
 #include "BestTanks.h"
 
-Enemy::Enemy(int const type, float const tspeed, float const x, float const y, float bspeed) {
+Enemy::Enemy(int const type, int const HP, float const tspeed, float const x, float const y, float bspeed) {
 	_type = type;
-    _respTime = RESP_TIME;
-	_HP = 1;
-	_ammo = 1;
+	_resp = DELAY_RESP;
+	_HP = HP;
 	_speed = tspeed;
 	_xyway.setX(x);
 	_xyway.setY(y);
 	_xyway.setWay(DOWN);
-    _freeze = 0;
-	_bullet = new Bullet(bspeed);
-    _bullet2 = NULL;
+	_freeze = 0;
+	_bullet = new Bullet(bspeed, TRUE, *this);
+	_bullet2 = NULL;
 }
 
 //===================================================
 
 Bullet *	Enemy::attack() {
-	if (_ammo > 0) {
-		_ammo--;
-		if (!_bullet->getStatus()) {
-			_bullet->changeStatus();
-			_bullet->setXYWay(_xyway);
-			return (_bullet);
-		}
+	if (_bullet->getStatus()) {
+		_bullet->changeStatus();
+		_bullet->setXYWay(_xyway);
+		_bullet->getXYWay().smartShift();
+		return (_bullet);
 	}
 	return (NULL);
 }

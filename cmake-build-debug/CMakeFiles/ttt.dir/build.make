@@ -321,9 +321,177 @@ CMakeFiles/ttt.dir/Conroller.cpp.o.provides: CMakeFiles/ttt.dir/Conroller.cpp.o.
 CMakeFiles/ttt.dir/Conroller.cpp.o.provides.build: CMakeFiles/ttt.dir/Conroller.cpp.o
 
 
+CMakeFiles/ttt.dir/Bonus.cpp.o: CMakeFiles/ttt.dir/flags.make
+CMakeFiles/ttt.dir/Bonus.cpp.o: ../Bonus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ttt.dir/Bonus.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttt.dir/Bonus.cpp.o -c /Users/igaliuk/False/ttt/Bonus.cpp
+
+CMakeFiles/ttt.dir/Bonus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttt.dir/Bonus.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/igaliuk/False/ttt/Bonus.cpp > CMakeFiles/ttt.dir/Bonus.cpp.i
+
+CMakeFiles/ttt.dir/Bonus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttt.dir/Bonus.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igaliuk/False/ttt/Bonus.cpp -o CMakeFiles/ttt.dir/Bonus.cpp.s
+
+CMakeFiles/ttt.dir/Bonus.cpp.o.requires:
+
+.PHONY : CMakeFiles/ttt.dir/Bonus.cpp.o.requires
+
+CMakeFiles/ttt.dir/Bonus.cpp.o.provides: CMakeFiles/ttt.dir/Bonus.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus.cpp.o.provides.build
+.PHONY : CMakeFiles/ttt.dir/Bonus.cpp.o.provides
+
+CMakeFiles/ttt.dir/Bonus.cpp.o.provides.build: CMakeFiles/ttt.dir/Bonus.cpp.o
+
+
+CMakeFiles/ttt.dir/Bonus1.cpp.o: CMakeFiles/ttt.dir/flags.make
+CMakeFiles/ttt.dir/Bonus1.cpp.o: ../Bonus1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ttt.dir/Bonus1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttt.dir/Bonus1.cpp.o -c /Users/igaliuk/False/ttt/Bonus1.cpp
+
+CMakeFiles/ttt.dir/Bonus1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttt.dir/Bonus1.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/igaliuk/False/ttt/Bonus1.cpp > CMakeFiles/ttt.dir/Bonus1.cpp.i
+
+CMakeFiles/ttt.dir/Bonus1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttt.dir/Bonus1.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igaliuk/False/ttt/Bonus1.cpp -o CMakeFiles/ttt.dir/Bonus1.cpp.s
+
+CMakeFiles/ttt.dir/Bonus1.cpp.o.requires:
+
+.PHONY : CMakeFiles/ttt.dir/Bonus1.cpp.o.requires
+
+CMakeFiles/ttt.dir/Bonus1.cpp.o.provides: CMakeFiles/ttt.dir/Bonus1.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus1.cpp.o.provides.build
+.PHONY : CMakeFiles/ttt.dir/Bonus1.cpp.o.provides
+
+CMakeFiles/ttt.dir/Bonus1.cpp.o.provides.build: CMakeFiles/ttt.dir/Bonus1.cpp.o
+
+
+CMakeFiles/ttt.dir/Bonus2.cpp.o: CMakeFiles/ttt.dir/flags.make
+CMakeFiles/ttt.dir/Bonus2.cpp.o: ../Bonus2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ttt.dir/Bonus2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttt.dir/Bonus2.cpp.o -c /Users/igaliuk/False/ttt/Bonus2.cpp
+
+CMakeFiles/ttt.dir/Bonus2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttt.dir/Bonus2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/igaliuk/False/ttt/Bonus2.cpp > CMakeFiles/ttt.dir/Bonus2.cpp.i
+
+CMakeFiles/ttt.dir/Bonus2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttt.dir/Bonus2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igaliuk/False/ttt/Bonus2.cpp -o CMakeFiles/ttt.dir/Bonus2.cpp.s
+
+CMakeFiles/ttt.dir/Bonus2.cpp.o.requires:
+
+.PHONY : CMakeFiles/ttt.dir/Bonus2.cpp.o.requires
+
+CMakeFiles/ttt.dir/Bonus2.cpp.o.provides: CMakeFiles/ttt.dir/Bonus2.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus2.cpp.o.provides.build
+.PHONY : CMakeFiles/ttt.dir/Bonus2.cpp.o.provides
+
+CMakeFiles/ttt.dir/Bonus2.cpp.o.provides.build: CMakeFiles/ttt.dir/Bonus2.cpp.o
+
+
+CMakeFiles/ttt.dir/Bonus3.cpp.o: CMakeFiles/ttt.dir/flags.make
+CMakeFiles/ttt.dir/Bonus3.cpp.o: ../Bonus3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ttt.dir/Bonus3.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttt.dir/Bonus3.cpp.o -c /Users/igaliuk/False/ttt/Bonus3.cpp
+
+CMakeFiles/ttt.dir/Bonus3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttt.dir/Bonus3.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/igaliuk/False/ttt/Bonus3.cpp > CMakeFiles/ttt.dir/Bonus3.cpp.i
+
+CMakeFiles/ttt.dir/Bonus3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttt.dir/Bonus3.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igaliuk/False/ttt/Bonus3.cpp -o CMakeFiles/ttt.dir/Bonus3.cpp.s
+
+CMakeFiles/ttt.dir/Bonus3.cpp.o.requires:
+
+.PHONY : CMakeFiles/ttt.dir/Bonus3.cpp.o.requires
+
+CMakeFiles/ttt.dir/Bonus3.cpp.o.provides: CMakeFiles/ttt.dir/Bonus3.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus3.cpp.o.provides.build
+.PHONY : CMakeFiles/ttt.dir/Bonus3.cpp.o.provides
+
+CMakeFiles/ttt.dir/Bonus3.cpp.o.provides.build: CMakeFiles/ttt.dir/Bonus3.cpp.o
+
+
+CMakeFiles/ttt.dir/Bonus4.cpp.o: CMakeFiles/ttt.dir/flags.make
+CMakeFiles/ttt.dir/Bonus4.cpp.o: ../Bonus4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ttt.dir/Bonus4.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttt.dir/Bonus4.cpp.o -c /Users/igaliuk/False/ttt/Bonus4.cpp
+
+CMakeFiles/ttt.dir/Bonus4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttt.dir/Bonus4.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/igaliuk/False/ttt/Bonus4.cpp > CMakeFiles/ttt.dir/Bonus4.cpp.i
+
+CMakeFiles/ttt.dir/Bonus4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttt.dir/Bonus4.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igaliuk/False/ttt/Bonus4.cpp -o CMakeFiles/ttt.dir/Bonus4.cpp.s
+
+CMakeFiles/ttt.dir/Bonus4.cpp.o.requires:
+
+.PHONY : CMakeFiles/ttt.dir/Bonus4.cpp.o.requires
+
+CMakeFiles/ttt.dir/Bonus4.cpp.o.provides: CMakeFiles/ttt.dir/Bonus4.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus4.cpp.o.provides.build
+.PHONY : CMakeFiles/ttt.dir/Bonus4.cpp.o.provides
+
+CMakeFiles/ttt.dir/Bonus4.cpp.o.provides.build: CMakeFiles/ttt.dir/Bonus4.cpp.o
+
+
+CMakeFiles/ttt.dir/Bonus5.cpp.o: CMakeFiles/ttt.dir/flags.make
+CMakeFiles/ttt.dir/Bonus5.cpp.o: ../Bonus5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ttt.dir/Bonus5.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttt.dir/Bonus5.cpp.o -c /Users/igaliuk/False/ttt/Bonus5.cpp
+
+CMakeFiles/ttt.dir/Bonus5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttt.dir/Bonus5.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/igaliuk/False/ttt/Bonus5.cpp > CMakeFiles/ttt.dir/Bonus5.cpp.i
+
+CMakeFiles/ttt.dir/Bonus5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttt.dir/Bonus5.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igaliuk/False/ttt/Bonus5.cpp -o CMakeFiles/ttt.dir/Bonus5.cpp.s
+
+CMakeFiles/ttt.dir/Bonus5.cpp.o.requires:
+
+.PHONY : CMakeFiles/ttt.dir/Bonus5.cpp.o.requires
+
+CMakeFiles/ttt.dir/Bonus5.cpp.o.provides: CMakeFiles/ttt.dir/Bonus5.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus5.cpp.o.provides.build
+.PHONY : CMakeFiles/ttt.dir/Bonus5.cpp.o.provides
+
+CMakeFiles/ttt.dir/Bonus5.cpp.o.provides.build: CMakeFiles/ttt.dir/Bonus5.cpp.o
+
+
+CMakeFiles/ttt.dir/Bonus6.cpp.o: CMakeFiles/ttt.dir/flags.make
+CMakeFiles/ttt.dir/Bonus6.cpp.o: ../Bonus6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ttt.dir/Bonus6.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttt.dir/Bonus6.cpp.o -c /Users/igaliuk/False/ttt/Bonus6.cpp
+
+CMakeFiles/ttt.dir/Bonus6.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttt.dir/Bonus6.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/igaliuk/False/ttt/Bonus6.cpp > CMakeFiles/ttt.dir/Bonus6.cpp.i
+
+CMakeFiles/ttt.dir/Bonus6.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttt.dir/Bonus6.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igaliuk/False/ttt/Bonus6.cpp -o CMakeFiles/ttt.dir/Bonus6.cpp.s
+
+CMakeFiles/ttt.dir/Bonus6.cpp.o.requires:
+
+.PHONY : CMakeFiles/ttt.dir/Bonus6.cpp.o.requires
+
+CMakeFiles/ttt.dir/Bonus6.cpp.o.provides: CMakeFiles/ttt.dir/Bonus6.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ttt.dir/build.make CMakeFiles/ttt.dir/Bonus6.cpp.o.provides.build
+.PHONY : CMakeFiles/ttt.dir/Bonus6.cpp.o.provides
+
+CMakeFiles/ttt.dir/Bonus6.cpp.o.provides.build: CMakeFiles/ttt.dir/Bonus6.cpp.o
+
+
 CMakeFiles/ttt.dir/roundfTanks.cpp.o: CMakeFiles/ttt.dir/flags.make
 CMakeFiles/ttt.dir/roundfTanks.cpp.o: ../roundfTanks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ttt.dir/roundfTanks.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ttt.dir/roundfTanks.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttt.dir/roundfTanks.cpp.o -c /Users/igaliuk/False/ttt/roundfTanks.cpp
 
 CMakeFiles/ttt.dir/roundfTanks.cpp.i: cmake_force
@@ -347,7 +515,7 @@ CMakeFiles/ttt.dir/roundfTanks.cpp.o.provides.build: CMakeFiles/ttt.dir/roundfTa
 
 CMakeFiles/ttt.dir/Menu.cpp.o: CMakeFiles/ttt.dir/flags.make
 CMakeFiles/ttt.dir/Menu.cpp.o: ../Menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ttt.dir/Menu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ttt.dir/Menu.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttt.dir/Menu.cpp.o -c /Users/igaliuk/False/ttt/Menu.cpp
 
 CMakeFiles/ttt.dir/Menu.cpp.i: cmake_force
@@ -371,7 +539,7 @@ CMakeFiles/ttt.dir/Menu.cpp.o.provides.build: CMakeFiles/ttt.dir/Menu.cpp.o
 
 CMakeFiles/ttt.dir/Survival.cpp.o: CMakeFiles/ttt.dir/flags.make
 CMakeFiles/ttt.dir/Survival.cpp.o: ../Survival.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ttt.dir/Survival.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ttt.dir/Survival.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttt.dir/Survival.cpp.o -c /Users/igaliuk/False/ttt/Survival.cpp
 
 CMakeFiles/ttt.dir/Survival.cpp.i: cmake_force
@@ -406,6 +574,13 @@ ttt_OBJECTS = \
 "CMakeFiles/ttt.dir/Game.cpp.o" \
 "CMakeFiles/ttt.dir/Nc.cpp.o" \
 "CMakeFiles/ttt.dir/Conroller.cpp.o" \
+"CMakeFiles/ttt.dir/Bonus.cpp.o" \
+"CMakeFiles/ttt.dir/Bonus1.cpp.o" \
+"CMakeFiles/ttt.dir/Bonus2.cpp.o" \
+"CMakeFiles/ttt.dir/Bonus3.cpp.o" \
+"CMakeFiles/ttt.dir/Bonus4.cpp.o" \
+"CMakeFiles/ttt.dir/Bonus5.cpp.o" \
+"CMakeFiles/ttt.dir/Bonus6.cpp.o" \
 "CMakeFiles/ttt.dir/roundfTanks.cpp.o" \
 "CMakeFiles/ttt.dir/Menu.cpp.o" \
 "CMakeFiles/ttt.dir/Survival.cpp.o"
@@ -424,12 +599,19 @@ ttt: CMakeFiles/ttt.dir/XYWay.cpp.o
 ttt: CMakeFiles/ttt.dir/Game.cpp.o
 ttt: CMakeFiles/ttt.dir/Nc.cpp.o
 ttt: CMakeFiles/ttt.dir/Conroller.cpp.o
+ttt: CMakeFiles/ttt.dir/Bonus.cpp.o
+ttt: CMakeFiles/ttt.dir/Bonus1.cpp.o
+ttt: CMakeFiles/ttt.dir/Bonus2.cpp.o
+ttt: CMakeFiles/ttt.dir/Bonus3.cpp.o
+ttt: CMakeFiles/ttt.dir/Bonus4.cpp.o
+ttt: CMakeFiles/ttt.dir/Bonus5.cpp.o
+ttt: CMakeFiles/ttt.dir/Bonus6.cpp.o
 ttt: CMakeFiles/ttt.dir/roundfTanks.cpp.o
 ttt: CMakeFiles/ttt.dir/Menu.cpp.o
 ttt: CMakeFiles/ttt.dir/Survival.cpp.o
 ttt: CMakeFiles/ttt.dir/build.make
 ttt: CMakeFiles/ttt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable ttt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable ttt"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ttt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -448,6 +630,13 @@ CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/XYWay.cpp.o.requires
 CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Game.cpp.o.requires
 CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Nc.cpp.o.requires
 CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Conroller.cpp.o.requires
+CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Bonus.cpp.o.requires
+CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Bonus1.cpp.o.requires
+CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Bonus2.cpp.o.requires
+CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Bonus3.cpp.o.requires
+CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Bonus4.cpp.o.requires
+CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Bonus5.cpp.o.requires
+CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Bonus6.cpp.o.requires
 CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/roundfTanks.cpp.o.requires
 CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Menu.cpp.o.requires
 CMakeFiles/ttt.dir/requires: CMakeFiles/ttt.dir/Survival.cpp.o.requires

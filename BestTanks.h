@@ -6,7 +6,9 @@
 # include <cmath>
 # include <vector>
 # include <ncurses.h>
-# include <stdbool.h>
+# include <unistd.h>
+# include <sys/time.h>
+# include <stdbool.h> //////////////
 
 using namespace std;
 
@@ -14,13 +16,13 @@ int			roundfTank(float const f);
 
 //////////////////////////////////////////////
 
-# define PLAYER1                1
-# define PLAYER2                2
-# define EAGLE                   3
-# define ENEMY1                4
-# define ENEMY2                5
-# define ENEMY3                6
-# define ENEMY4                7
+# define PLAYER1				1
+# define PLAYER2				2
+# define EAGLE					3
+# define ENEMY1					4
+# define ENEMY2					5
+# define ENEMY3					6
+# define ENEMY4					7
 
 //////////////////////////////////////////////
 
@@ -42,9 +44,15 @@ int			roundfTank(float const f);
 
 //////////////////////////////////////////////
 
-# define STEP_TIME				50
-# define RESP_TIME					2000
-# define FREEZE_TIME                    10000
+# define STEP_TIME				5
+# define DELAY_RESP				2000
+# define RESP_TIME				200000
+# define FREEZE_TIME			10000
+
+//////////////////////////////////////////////
+
+# define NUM_OF_ENEMY_GAME		20
+# define NUM_OF_ENEMY_FIELD		7
 
 //////////////////////////////////////////////
 
@@ -65,12 +73,20 @@ int			roundfTank(float const f);
 
 //////////////////////////////////////////////
 
-# define SPEED_TANK1			1.0f
-# define SPEED_TANK2			2.0f
-# define SPEED_TANK3			3.0f
+# define SPEED_TANK1			0.2f
+# define SPEED_TANK2			0.3f
+# define SPEED_TANK3			0.0001f
 
-# define SPEED_BULLET1			1.0f
-# define SPEED_BULLET2			2.0f
+# define SPEED_BULLET1			0.001f
+# define SPEED_BULLET2			0.002f
+
+//////////////////////////////////////////////
+
+# define POINTS_BONUS			500
+# define POINTS_ENEMY1			100
+# define POINTS_ENEMY2			200
+# define POINTS_ENEMY3			300
+# define POINTS_ENEMY4			400
 
 //////////////////////////////////////////////
 
@@ -98,6 +114,13 @@ int			roundfTank(float const f);
 # include "Eagle.hpp"
 # include "Bullet.hpp"
 # include "Texture.hpp"
+# include "Bonus.hpp"
+# include "Bonus1.hpp"
+# include "Bonus2.hpp"
+# include "Bonus3.hpp"
+# include "Bonus4.hpp"
+# include "Bonus5.hpp"
+# include "Bonus6.hpp"
 # include "Controller.hpp"
 # include "Nc.hpp"
 # include "Game.hpp"

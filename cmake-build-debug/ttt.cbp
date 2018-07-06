@@ -83,6 +83,48 @@
 		<Unit filename="/Users/igaliuk/False/ttt/BestTanks.h">
 			<Option target="ttt"/>
 		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Bonus.cpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Bonus.hpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Bonus1.cpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Bonus1.hpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Bonus2.cpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Bonus2.hpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Bonus3.cpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Bonus3.hpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Bonus4.cpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Bonus4.hpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Bonus5.cpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Bonus5.hpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Bonus6.cpp">
+			<Option target="ttt"/>
+		</Unit>
+		<Unit filename="/Users/igaliuk/False/ttt/Bonus6.hpp">
+			<Option target="ttt"/>
+		</Unit>
 		<Unit filename="/Users/igaliuk/False/ttt/Bullet.cpp">
 			<Option target="ttt"/>
 		</Unit>

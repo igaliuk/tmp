@@ -1,6 +1,6 @@
 #include "BestTanks.h"
 
-Survival::Survival(Nc * nc, Controller * controller, int typeGame) : Game(nc, controller, typeGame) {}
+Survival::Survival(Nc * nc, Controller * controller, int typeGame, string & mapOfPassability) : Game(nc, controller, typeGame, mapOfPassability) {}
 
 //===================================================
 

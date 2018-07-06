@@ -15,4 +15,11 @@ add_executable(ttt main.cpp
         Game.cpp Game.hpp
         Nc.cpp Nc.hpp
         Conroller.cpp Controller.hpp
+        Bonus.cpp Bonus.hpp
+        Bonus1.cpp Bonus1.hpp
+        Bonus2.cpp Bonus2.hpp
+        Bonus3.cpp Bonus3.hpp
+        Bonus4.cpp Bonus4.hpp
+        Bonus5.cpp Bonus5.hpp
+        Bonus6.cpp Bonus6.hpp
         roundfTanks.cpp Menu.cpp Menu.hpp Survival.cpp Survival.hpp)

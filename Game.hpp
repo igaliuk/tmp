@@ -10,25 +10,30 @@ class Game {
 		Nc						* _nc;
 		Controller				* _controller;
 		int						_typeGame;
-		Eagle *					_eagle;
-		vector<Texture *>		_vecTexture;
 		vector<Player *>		_vecPlayer;
-		vector<Player *>		_vecEnemy;
+		vector<Texture *>		_vecTexture;
+		vector<Tank *>			_vecTank;
 		vector<Bullet *>		_vecBullet;
+		string					& _mapOfPassability;
 
 	public:
 
-		Game(Nc * nc, Controller * controller, int typeGame);
+		Game(Nc * nc, Controller * controller, int typeGame, string & mapOfPassability);
+
+		_Bool		battle();
 
 		void		initTextures(int const lvl);
 		void		openFileMap(ifstream * fin, int const lvl) const;
 		Texture *	typeTexture(int const type, float const x, float const y) const;
-		void		initPlayers();
+		void		initPlayersEagle();
+		Tank *		initEnemy(int const type, float const x, float const y);
 
-		_Bool		cycleBattle();
+		void		incubatorEnemy(int const NTank);
+		void		buildMapOfPassability();
 
 		_Bool		checkGameOver() const;
 		void		checkBullet(int const i);
+		string		checkPassability(int const x, int const y) const;
 
 		~Game();
 	

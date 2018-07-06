@@ -4,6 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/igaliuk/False/ttt/Bonus.cpp" "/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles/ttt.dir/Bonus.cpp.o"
+  "/Users/igaliuk/False/ttt/Bonus1.cpp" "/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles/ttt.dir/Bonus1.cpp.o"
+  "/Users/igaliuk/False/ttt/Bonus2.cpp" "/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles/ttt.dir/Bonus2.cpp.o"
+  "/Users/igaliuk/False/ttt/Bonus3.cpp" "/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles/ttt.dir/Bonus3.cpp.o"
+  "/Users/igaliuk/False/ttt/Bonus4.cpp" "/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles/ttt.dir/Bonus4.cpp.o"
+  "/Users/igaliuk/False/ttt/Bonus5.cpp" "/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles/ttt.dir/Bonus5.cpp.o"
+  "/Users/igaliuk/False/ttt/Bonus6.cpp" "/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles/ttt.dir/Bonus6.cpp.o"
   "/Users/igaliuk/False/ttt/Bullet.cpp" "/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles/ttt.dir/Bullet.cpp.o"
   "/Users/igaliuk/False/ttt/Conroller.cpp" "/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles/ttt.dir/Conroller.cpp.o"
   "/Users/igaliuk/False/ttt/Eagle.cpp" "/Users/igaliuk/False/ttt/cmake-build-debug/CMakeFiles/ttt.dir/Eagle.cpp.o"

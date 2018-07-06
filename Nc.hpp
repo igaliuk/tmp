@@ -5,34 +5,34 @@
 
 class Nc {
 
-private:
+	private:
 
-	WINDOW			*_win1;
-	WINDOW			*_win2;
-	WINDOW			*_win3;
-	int				_key;
-	_Bool			_pause;
+		WINDOW			*_win1;
+		WINDOW			*_win2;
+		WINDOW			*_win3;
+		int				_key;
+		_Bool			_pause;
 
-public:
+	public:
 
-	Nc();
+		Nc();
 
-	int			getKey() const;
-	_Bool		getPause() const;
+		int			getKey() const;
+		_Bool		getPause() const;
 
-	void		setKey(int const key);
+		void		setKey(int const key);
 
-	void		init();
-	void		init_border();
-	void		refreshWindows() const;
-	void		menu(int & game) const;
-	void		changePause();
-	void		wantPause();
-	void		wantQuit();
-	void		printW2(Eagle &_eagle, vector<Texture *> & _vecTexture, vector<Player *> & _vecPlayer, vector<Player *> & _vecEnemy, vector<Bullet *> & _vecBullet) const;
-//	void		printW2(char * map) const;
+		void		init();
+		void		init_border();
+		void		refreshWindows() const;
+		void		menu(int & game) const;
+		void		changePause();
+		void		wantPause();
+		void		wantQuit();
+		void		printW2(vector<Texture *> & _vecTexture, vector<Tank *> & _vecTank, vector<Bullet *> & _vecBullet) const;
+	//	void		printW2(char * map) const;
 
-	~Nc();
+		~Nc();
 };
 
 #endif

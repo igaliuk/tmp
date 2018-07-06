@@ -1,12 +1,12 @@
 #include "BestTanks.h"
 
-Bullet::Bullet(float const speed) {
+Bullet::Bullet(float const speed, _Bool const status, Tank & tank) : _tank(tank) {
 	_power = 1;
 	_speed = speed;
 	_xyway.setX(-1.0f);
 	_xyway.setY(-1.0f);
 	_xyway.setWay(0);
-    _status = FALSE;
+	_status = status;
 }
 
 //===================================================
@@ -19,22 +19,26 @@ int			Bullet::getPower() const {
 	return (_speed);
 }
 
-XYWay		&Bullet::getXYWay() {
+XYWay &		Bullet::getXYWay() {
 	return (_xyway);
 }
 
-_Bool		Bullet::getStatus() {
+_Bool		Bullet::getStatus() const {
 	return (_status);
+}
+
+Tank &		Bullet::getTank() {
+	return (_tank);
 }
 
 //===================================================
 
-void           Bullet::setPower(int const power) {
-    _power = power;
+void		Bullet::setPower(int const power) {
+	_power = power;
 }
 
-void        Bullet::setSpeed(float const speed) {
-    _speed = speed;
+void		Bullet::setSpeed(float const speed) {
+	_speed = speed;
 }
 
 void		Bullet::setXYWay(XYWay const & xyway) {
@@ -44,10 +48,7 @@ void		Bullet::setXYWay(XYWay const & xyway) {
 //===================================================
 
 void		Bullet::changeStatus() {
-	if (_status)
-		_status = FALSE;
-	else
-		_status = TRUE;
+	_status = !_status;
 }
 
 void		Bullet::move() {

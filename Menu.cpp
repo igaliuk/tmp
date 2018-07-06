@@ -1,8 +1,9 @@
 #include "BestTanks.h"
 
 Menu::Menu() {
+	_mapOfPassability = "";
 	_nc = new Nc();
-	_controller = new Controller(_nc);
+	_controller = new Controller(_nc, _mapOfPassability);
 	_game = NULL;
 	_typeGame = 1;
 }
@@ -20,8 +21,8 @@ void		Menu::choiseGame() {
 //		_battle->game(_typeGame);
 //	}
 	if (_typeGame == 3 || _typeGame == 4) {
-		_game = new Survival(_nc, _controller, _typeGame);
-		_game->cycleBattle(); //////
+		_game = new Survival(_nc, _controller, _typeGame, _mapOfPassability);
+		_game->battle(); //////
 	}
 //	if (_typeGame == 4)
 //		_nc->controls();

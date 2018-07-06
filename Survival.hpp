@@ -18,7 +18,7 @@ class Survival : public Game {
 
 	public:
 
-		Survival(Nc * nc, Controller * controller, int typeGame);
+		Survival(Nc * nc, Controller * controller, int typeGame, string & mapOfPassability);
 
 		~Survival();
 

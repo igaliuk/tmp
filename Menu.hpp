@@ -7,6 +7,7 @@ class Menu {
 
 	private:
 
+		string					_mapOfPassability;
 		Nc						*_nc;
 		Game					*_game;
 		Controller				*_controller;

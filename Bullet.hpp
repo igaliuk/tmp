@@ -11,18 +11,20 @@ class Bullet {
 		float			_speed;
 		XYWay			_xyway;
 		_Bool			_status;
+		Tank &			_tank;
 
 	public:
 
-		Bullet(float const speed);
+		Bullet(float const speed, _Bool const status, Tank & tank);
 
 		int				getPower() const;
 		float			getSpeed() const;
 		XYWay &			getXYWay();
-		_Bool			getStatus();
+		_Bool			getStatus() const;
+		Tank &			getTank();
 
-    void           setPower(int const power);
-    void        setSpeed(float const speed);
+		void			setPower(int const power);
+		void			setSpeed(float const speed);
 		void			setXYWay(XYWay const & xyway);
 
 		void			changeStatus();
